@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+          type="text/css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link href="../dist/style.css" rel="stylesheet">
+
+    <title>Arlett - Whisky</title>
+</head>
+
+<body class="bg-black font-league">
+
+
+
+<!--    div video -->
+<header class="w-full lg:h-screen top-0 bg-center decor__disti__header mb-32">
+
+    <!--    div background -->
+    <div class="w-full">
+        <nav class=" container mx-auto ">
+            <div class=" py-8 px-8 lg:px-0 max-w-screen-xl flex flex-col items-center justify-start mx-auto lg:flex-row ">
+                <div class="w-full flex justify-between items-center">
+                    <a href="../index.html" class="mr-6">
+                        <img class="" src="../img/LOGO%20ARLETTE%201%201%20(1).png" alt="logo">
+                    </a>
+
+                    <!-- Mobile menu button -->
+                    <!-- The overlay -->
+                    <div class="lg:hidden ">
+                        <div id="myNav" class="overlay">
+
+                            <!-- Button to close the overlay navigation -->
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                            <!-- Overlay content -->
+                            <div class="overlay-content ">
+                                <div class="dropMenu text-4xl" onclick="this.classList.toggle('active')">Nos whiskys
+                                    <ul class="dropList dnone">
+                                        <li><a>mizunara</a></li>
+                                        <li><a>mizunara</a></li>
+                                        <li><a>mizunara</a></li>
+                                    </ul>
+                                </div>
+                                <a href="../html/distillerie.html">La Distillerie Tessendier</a>
+                                <a href="../html/cocktail.html">Cocktails</a>
+                                <a href="../html/contact.html">Contact</a>
+                                <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+                            </div>
+                        </div>
+                        <span onclick="openNav()"><i class="fa-solid fa-bars fa-2xl"></i>
+                    </span>
+                    </div>
+                    <!-- nav fullscreen -->
+                    <div class="w-full hidden lg:block text-center ">
+                        <ul class="items-center text-xl uppercase text-white self-center inline-flex w-full flex-col lg:flex-row  md:mt-0">
+                            <li class="dropdown border-r-2 border-customColor1 px-3">
+                                <div class="dropdown__btn uppercase hover:text-customColor1">Nos whiskys</div>
+                                <div class="dropdown__content text-start ">
+                                    <div class="text-start uppercase drop-menu"
+                                         onclick="this.classList.toggle('active')">Single Malt
+                                        <ul class="dnone drop-list">
+                                            <li><a>mizunara</a></li>
+                                            <li><a>mizunara</a></li>
+                                            <li><a>mizunara</a></li>
+                                        </ul>
+                                    </div>
+                                    <a class="text-start uppercase"
+                                       href="../html/blended.html">Blended</a>
+                                </div>
+                            </li>
+                            <li class="inline-block border-r-2 border-customColor1 px-3">
+                                <a class="hover:text-customColor1"
+                                   href="../html/distillerie.html">La Distillerie Tessendier</a>
+                            </li>
+                            <li class="inline-block border-r-2 border-customColor1 px-3">
+                                <a class="hover:text-customColor1"
+                                   href="../html/cocktail.html">Cocktails</a>
+                            </li>
+                            <li class="inline-block border-r-2 border-customColor1 px-3">
+                                <a class="hover:text-customColor1"
+                                   href="../html/contact.html">Contact</a>
+                            </li>
+                            <li class="inline-block px-3">
+                                <a class="hover:text-customColor1 "
+                                   href=""><i class="fa-solid fa-bag-shopping"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="w-full container mx-auto lg:mb-14">
+
+        <h1 class="py-16 px-20 lg:mx-56 max-w-screen-xl text-5xl font-league uppercase">Les <br><span class="stroke-effect text-black text-7xl">origines</span><br>la naissance du whisky arlett</h1>
+
+    </div>
+
+    <div class="flex flex-col lg:flex-row gap-16">
+        <div class="flex flex-col lg:flex-row basis-2/3 max-lg:justify-center max-lg:items-center max-lg:self-center ">
+            <div class="decor__disti__middle w-1/2">
+
+            </div>
+            <div class="m-6 lg:m-0">
+                <img src="../img/Photo%20de%20famille%201.png" alt="">
+            </div>
+        </div>
+
+        <div class="basis-1/3 self-center items-center ">
+            <p class="px-14 max-w-[380px] text-justify font-avenir ">La famille Tessendier excelle avec sérieux et
+                passion
+                dans l’art de la distillation depuis des
+                générations. Leur dernier projet, provenant directement de leurs tuyaux cuivrés est ce whisky aux
+                accents vintages, véritable hommage aux années 50 ainsi qu'à la mère de Jérôme et Lilian, amatrice de
+                whisky.
+            </p>
+        </div>
+    </div>
+
+
+</header>
+
+<main>
+
+    <article class="flex flex-col lg:flex-row lg:gap-10 gap-6 justify-between  ">
+        <div class="basis-1/2 self-center m-6">
+            <img class="mx-auto" src="../img/distillerie/image%2015%20(1).png" alt="">
+        </div>
+        <div class="basis-1/2 self-center m-6">
+            <p class="max-w-[580px] my-14 mx-auto text-base xl:text-xl font-avenir text-justify ">Arlett whisky français
+                germé des entrailles de la Terre, a ensuite connu
+                l’épreuve de la chaleur et
+                de la
+                double distillation charentaise pour être inlassablement affiné par Jérôme et Lilian Tessendier,
+                deux
+                frères garants de la qualité et du goût.
+            </p>
+            <p class="max-w-[580px] my-14 mx-auto text-base xl:text-xl font-avenir text-justify"><strong>Jérôme
+                Tessendier</strong> : « Ce n’est pas un whisky que nous
+                avons produit, c’est NOTRE
+                whisky. Arlett, c’est
+                l’aboutissement d’un travail d’équipe où chaque maillon a contribué à son ADN. C’est la combinaison
+                des
+                savoir-faire et des choix du brasseur, du distillateur et du maître de chai, à chaque étape de son
+                élaboration, qui a forgé l’identité de ce spiritueux français. »
+            </p>
+        </div>
+    </article>
+
+
+    <article class="flex flex-col lg:flex-row-reverse lg:gap-10 gap-6 justify-around ">
+        <div class="basis-1/2 self-center m-6">
+            <img class="mx-auto" src="../img/distillerie/image%2015%20(2).png" alt="">
+        </div>
+        <div class="basis-1/2 self-center m-6">
+            <h2 class="max-w-[580px] my-14 mx-auto uppercase font-league text-9xl stroke-effect line text-black">L'ORGE</h2>
+            <p class="max-w-[580px] my-14 mx-auto text-base xl:text-xl font-avenir text-justify">Avec Arlett Whisky
+                Français, chaque détail compte. L'orge utilisée est une variété de printemps à deux rangs. Elle est
+                méticuleusement sélectionnée parmi des parcelles du nord de la France, répondant aux normes rigoureuses
+                de traçabilité de la production.
+            </p>
+        </div>
+    </article>
+
+    <article class="flex flex-col lg:flex-row lg:gap-10 gap-6 justify-around ">
+        <div class="basis-1/2 self-center m-6">
+            <img class="mx-auto" src="../img/distillerie/image%2015%20(3).png" alt="">
+        </div>
+        <div class="basis-1/2 self-center m-6">
+            <h2 class="max-w-[580px] my-14 mx-auto uppercase font-league text-9xl  stroke-effect line text-black ">LA BRASSERIE</h2>
+            <p class="max-w-[580px] my-14 mx-auto text-base xl:text-xl font-avenir text-justify">
+                C'est à Jarnac que le malt est brassé en travaillant sur deux paliers de température pour obtenir une
+                extraction optimale. Grâce à leur expertise, nos brasseurs ont affiné et sublimé la méthode de brassage
+                de la Distillerie Tessendier.
+                Tout au long de la fermentation, le brasseur procède à des contrôles réguliers et, en mobilisant tout
+                son savoir-faire, il est garant de la production d'une bière "verte" de grande qualité qui influencera
+                la palette aromatique du futur whisky.
+                Cette bière de distillation, aussi appelée "Wash", titre environ à 9% vol. et sera ensuite distillée
+                pour obtenir une eau-de-vie de malt de qualité.
+            </p>
+        </div>
+    </article>
+
+    <article class="flex flex-col lg:flex-row-reverse lg:gap-10 gap-6 justify-around ">
+        <div class="basis-1/2 self-center m-6">
+            <img class="mx-auto" src="../img/distillerie/image%2015%20(4).png" alt="">
+        </div>
+        <div class="basis-1/2 self-center m-6">
+            <h2 class="max-w-[580px] my-14 mx-auto uppercase font-league text-9xl  stroke-effect line text-black ">LA
+                DISTILLERIE
+            </h2>
+            <p class="max-w-[580px] my-14 mx-auto text-base xl:text-xl font-avenir text-justify">
+                Nos eaux-de-vie de malt sont doublement distillées  dans nos alambics traditionnels en cuivre. Le long
+                serpentin en cuivre assure un contact prolongé et une condensation progressive, aboutissant à un
+                distillat fin et élégant.
+            </p>
+        </div>
+    </article>
+
+    <article class="flex flex-col lg:flex-row lg:gap-10 gap-6 justify-around ">
+        <div class="basis-1/2 self-center m-6">
+            <img class="mx-auto" src="../img/distillerie/image%2015%20(5).png" alt="">
+        </div>
+        <div class="basis-1/2 self-center m-6">
+            <h2 class="max-w-[580px] my-14 mx-auto uppercase font-league text-9xl  stroke-effect line text-black ">LES CHAIS
+            </h2>
+            <p class="max-w-[580px] my-14 mx-auto text-base xl:text-xl font-avenir text-justify">
+                Les chais Platane, Tiffon et Moreau, proches des bords de la Charente, offrent des conditions
+                relativement humides et apportent de la rondeur aux eaux-de-vie. En revanche, les chaudes températures
+                estivales de la région favorisent l'émergence d'une note épicée. Grâce au vieillissement dans nos fûts
+                de chêne, le whisky acquiert ainsi une personnalité affirmée et se pare de magnifiques teintes.
+            </p>
+        </div>
+    </article>
+
+    <article class="flex flex-col lg:flex-row-reverse lg:gap-10 gap-6 justify-around ">
+        <div class="basis-1/2 self-center m-6">
+            <img class="mx-auto" src="../img/distillerie/image%2015%20(6).png" alt="">
+        </div>
+        <div class="basis-1/2 self-center m-6">
+            <h2 class="max-w-[580px] my-14 mx-auto uppercase font-league text-9xl  stroke-effect line text-black ">L'ASSEMBLAGE
+            </h2>
+            <p class="max-w-[580px] my-14 mx-auto text-base xl:text-xl font-avenir text-justify">
+                Une fois que nos eaux-de-vie ont atteint un niveau optimal de maturation, commence l'art délicat de
+                l'assemblage. La collection Arlett Whisky Français est née  de la fusion des eaux-de-vie provenant des
+                divers fûts de nos chais .
+                Le Maître de chais sélectionne méticuleusement les différents fûts et déguste chaque lot afin de
+                réaliser l’assemblage qui donnera vie au whisky ARLETT. Une fois cette étape achevée, nous procédons à
+                la réduction, un processus visant à abaisser progressivement le degré alcoolique de l’assemblage,
+                jusqu’à révéler pleinement les arômes distinctifs de chaque whisky de la gamme Arlett.
+            </p>
+        </div>
+    </article>
+
+    <div class="w-full my-10 flex justify-center">
+        <a class=""><img src="../img/distillerie/Group%20117%20(1).svg" alt=""></a>
+    </div>
+
+
+</main>
+
+<footer class="">
+    <section class="">
+        <div class="flex flex-row justify-center self-center items-baseline my-10 line__footer__logo">
+            <img class="mx-8 max-w-[100px]" src="../img/LOGO%20ARLETTE%201%201%20(1).png" alt="">
+        </div>
+        <div>
+            <div class="container mx-auto">
+                <h4 class="ml-10 text-start font-league uppercase text-3xl">SUIVEZ-NOUS SUR <br>INSTAGRAM</h4>
+            </div>
+            <!-- feed insta -->
+            <div class="w-full flex flex-row justify-evenly items-center self-center slick-center my-10">
+                <div>
+                    <a class="">
+                        <img class="max-w-[180px] max-h-[160px]" src="../img/temporaire/image%2021.png" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a class="">
+                        <img class="max-w-[180px] max-h-[160px]" src="../img/temporaire/image%2021.png" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a class="">
+                        <img class="max-w-[180px] max-h-[160px]" src="../img/temporaire/image%2021.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class=" align-middle">
+
+        <div class="flex flex-row text-customColor1 text-lg justify-center self-center items-center mt-10 line__footer__social ">
+            <a class="mx-4"><i class="fa-brands fa-instagram "></i></a>
+            <a class="mx-4"><i class="fa-brands fa-facebook-f"></i></a>
+            <a class="mx-4"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+
+
+    </section>
+
+    <div class="container mx-auto w-full">
+        <ul class="flex flex-row text-customColor1 font-avenir ">
+            <li class="border-r-2 border-customColor1 px-3"><a>Mentions légales</a></li>
+            <li class="border-r-2 border-customColor1 px-3"><a>Politique de confidentialité</a></li>
+            <li class="px-3"><a>Politique de cookie</a></li>
+        </ul>
+    </div>
+
+    <div class="container mx-auto w-full mt-10 mb-3">
+        <div class="text-center text-xs text-customColor1 font-avenir px-4">
+            <p>94 Rue Robert Daugas, 16100 Cognac, France +33 (0) 5 45 35 36 34</p>
+            <p>L'ABUS D'ALCOOL EST DANGEREUX POUR LA SANTÉ. À CONSOMMER AVEC MODÉRATION.</p>
+            <p>Copyright 2022 © Distillerie Tessendier. All Rights Reserved</p>
+        </div>
+    </div>
+    <div class="w-full h-full p-0 m-0">
+        <img class="object-contain w-full" src="../img/background/FOOTER%201%20MAJ%201.svg" alt="">
+    </div>
+
+
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-3.4.0.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="../js/slick.js"></script>
+<script src="../js/index.js"></script>
+</body>
+
+</html>
+

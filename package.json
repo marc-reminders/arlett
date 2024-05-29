@@ -1,0 +1,20 @@
+{
+  "name": "arlett",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "stylelint": "^16.5.0",
+    "stylelint-config-standard-scss": "^13.1.0",
+    "tailwindcss": "^3.4.3"
+  },
+  "dependencies": {
+    "tailwindcss-fluid-type": "^2.0.6"
+  }
+}

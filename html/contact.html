@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+          type="text/css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link href="../dist/style.css" rel="stylesheet">
+
+    <title>Arlett - Whisky</title>
+</head>
+
+<body class="bg-black font-league">
+
+
+<!--    div video -->
+<header class="w-full lg:h top-0 bg-center decor__disti__header mb-32">
+
+    <!--    div background -->
+    <div class="w-full">
+        <nav class=" container mx-auto ">
+            <div class=" py-8 px-8 lg:px-0 max-w-screen-xl flex flex-col items-center justify-start mx-auto lg:flex-row ">
+                <div class="w-full flex justify-between items-center">
+                    <a href="../index.html" class="mr-6">
+                        <img class="" src="../img/LOGO%20ARLETTE%201%201%20(1).png" alt="logo">
+                    </a>
+
+                    <!-- Mobile menu button -->
+                    <!-- The overlay -->
+                    <div class="lg:hidden ">
+                        <div id="myNav" class="overlay">
+
+                            <!-- Button to close the overlay navigation -->
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                            <!-- Overlay content -->
+                            <div class="overlay-content ">
+                                <div class="dropMenu text-4xl" onclick="this.classList.toggle('active')">Nos whiskys
+                                    <ul class="dropList dnone">
+                                        <li><a>mizunara</a></li>
+                                        <li><a>mizunara</a></li>
+                                        <li><a>mizunara</a></li>
+                                    </ul>
+                                </div>
+                                <a href="../html/distillerie.html">La Distillerie Tessendier</a>
+                                <a href="../html/cocktail.html">Cocktails</a>
+                                <a href="../html/contact.html">Contact</a>
+                                <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+                            </div>
+                        </div>
+                        <span onclick="openNav()"><i class="fa-solid fa-bars fa-2xl"></i>
+                    </span>
+                    </div>
+                    <!-- nav fullscreen -->
+                    <div class="w-full hidden lg:block text-center ">
+                        <ul class="items-center text-xl uppercase text-white self-center inline-flex w-full flex-col lg:flex-row  md:mt-0">
+                            <li class="dropdown border-r-2 border-customColor1 px-3">
+                                <div class="dropdown__btn uppercase hover:text-customColor1">Nos whiskys</div>
+                                <div class="dropdown__content text-start ">
+                                    <div class="text-start uppercase drop-menu"
+                                         onclick="this.classList.toggle('active')">Single Malt
+                                        <ul class="dnone drop-list">
+                                            <li><a>mizunara</a></li>
+                                            <li><a>mizunara</a></li>
+                                            <li><a>mizunara</a></li>
+                                        </ul>
+                                    </div>
+                                    <a class="text-start uppercase"
+                                       href="../html/blended.html">Blended</a>
+                                </div>
+                            </li>
+                            <li class="inline-block border-r-2 border-customColor1 px-3">
+                                <a class="hover:text-customColor1"
+                                   href="../html/distillerie.html">La Distillerie Tessendier</a>
+                            </li>
+                            <li class="inline-block border-r-2 border-customColor1 px-3">
+                                <a class="hover:text-customColor1"
+                                   href="../html/cocktail.html">Cocktails</a>
+                            </li>
+                            <li class="inline-block border-r-2 border-customColor1 px-3">
+                                <a class="hover:text-customColor1"
+                                   href="../html/contact.html">Contact</a>
+                            </li>
+                            <li class="inline-block px-3">
+                                <a class="hover:text-customColor1 "
+                                   href="https://www.vinatis.com/maisons/arlett-whisky"><i class="fa-solid fa-bag-shopping"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class=" mt-32 lg:mt-96 w-full container mx-auto lg:mb-14 flex flex-row justify-start items-center self-center">
+
+        <div class="basis-1/3">
+            <img class=""
+                 src="../img/background/Group%2028.svg" alt="">
+        </div>
+
+        <div class=" basis-2/3 ">
+            <h2 class=" line_decor__contact pt-24 text-black stroke-effect text-9xl text-justify font-league uppercase">
+                contact
+            </h2>
+        </div>
+
+    </div>
+
+</header>
+
+<main class="">
+
+    <section class="container mx-auto mb-32 ">
+        <form action="" class="grid grid-cols-4 gap-16 px-16">
+            <div class="mb-5 col-span-4 lg:col-span-2">
+                <label for="nom" class="mb-3 block text-2xl uppercase font-avenir text-white "></label>
+                <input type="text" name="name" id="nom" placeholder="Nom"
+                       class="w-full rounded-md border border-customColor1 bg-transparent py-3 px-6 text-2xl  text-white outline-none focus:shadow-md"/>
+            </div>
+            <div class="mb-5 col-span-4 lg:col-span-2">
+                <label for="email" class="mb-3 block text-2xl uppercase font-avenir text-white "></label>
+                <input type="email" name="email" id="email" placeholder="email"
+                       class="w-full rounded-md border border-customColor1 bg-transparent py-3 px-6 text-2xl  text-white outline-none focus:shadow-md"/>
+            </div>
+            <div class="mb-5 col-span-4 lg:col-span-2">
+                <label for="tel" class="mb-3 block text-2xl uppercase font-avenir text-white "></label>
+                <input type="tel" name="telephone" id="tel" placeholder="Numéro de téléphone"
+                       class="w-full rounded-md border border-customColor1 bg-transparent py-3 px-6 text-2xl  text-white outline-none focus:shadow-md"/>
+            </div>
+            <div class="mb-5 col-span-4 lg:col-span-2">
+                <label for="obj" class="mb-3 block text-2xl uppercase font-avenir text-white "></label>
+                <input type="text" name="objet" id="obj" placeholder="Objet"
+                       class="w-full rounded-md border border-customColor1 bg-transparent py-3 px-6 text-2xl  text-white outline-none focus:shadow-md"/>
+            </div>
+            <div class="mb-5 col-span-4 lg:col-span-2">
+                <label for="message" class="mb-3 block text-2xl text-white"></label>
+                <textarea rows="4" name="message" id="message" placeholder="Votre message"
+                          class="w-full resize-none rounded-md border border-customColor1 bg-transparent py-3 px-6 text-2xl text-white outline-none focus:shadow-md"
+                ></textarea>
+            </div>
+
+            <div class="mb-5 col-span-4 lg:col-span-2 items-center self-center mx-auto">
+                <input id="remember" type="checkbox" value="" class="py-3 px-6  text-base text-white outline-none"
+                       required/>
+                <label for="remember" class=" ms-2 mb-3 text-base uppercase font-avenir text-white ">En envoyant ce
+                    formulaire de contact, vous acceptez notre politique de confidentialité</label>
+            </div>
+
+            <div class="col-span-4 items-center self-center mx-auto">
+                <button class="hover:shadow-form rounded-md py-3 px-8 text-2xl font-semibold text-white outline-none line__submit">Envoyer
+                </button>
+            </div>
+
+        </form>
+    </section>
+
+
+</main>
+
+<footer class="">
+    <section class="">
+        <div class="flex flex-row justify-center self-center items-baseline my-10 line__footer__logo">
+            <img class="mx-8 max-w-[100px]" src="../img/LOGO%20ARLETTE%201%201%20(1).png" alt="">
+        </div>
+        <div>
+            <div class="container mx-auto">
+                <h4 class="ml-10 text-start font-league uppercase text-3xl">SUIVEZ-NOUS SUR <br>INSTAGRAM</h4>
+            </div>
+            <!-- feed insta -->
+            <div class="w-full flex flex-row justify-evenly items-center self-center slick-center my-10">
+                <div>
+                    <a class="">
+                        <img class="max-w-[180px] max-h-[160px]" src="../img/temporaire/image%2021.png" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a class="">
+                        <img class="max-w-[180px] max-h-[160px]" src="../img/temporaire/image%2021.png" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a class="">
+                        <img class="max-w-[180px] max-h-[160px]" src="../img/temporaire/image%2021.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class=" align-middle">
+
+        <div class="flex flex-row text-customColor1 text-lg justify-center self-center items-center mt-10 line__footer__social ">
+            <a class="mx-4"><i class="fa-brands fa-instagram "></i></a>
+            <a class="mx-4"><i class="fa-brands fa-facebook-f"></i></a>
+            <a class="mx-4"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+
+
+    </section>
+
+    <div class="container mx-auto w-full">
+        <ul class="flex flex-row text-customColor1 font-avenir ">
+            <li class="border-r-2 border-customColor1 px-3"><a>Mentions légales</a></li>
+            <li class="border-r-2 border-customColor1 px-3"><a>Politique de confidentialité</a></li>
+            <li class="px-3"><a>Politique de cookie</a></li>
+        </ul>
+    </div>
+
+    <div class="container mx-auto w-full mt-10 mb-3">
+        <div class="text-center text-xs text-customColor1 font-avenir px-4">
+            <p>94 Rue Robert Daugas, 16100 Cognac, France +33 (0) 5 45 35 36 34</p>
+            <p>L'ABUS D'ALCOOL EST DANGEREUX POUR LA SANTÉ. À CONSOMMER AVEC MODÉRATION.</p>
+            <p>Copyright 2022 © Distillerie Tessendier. All Rights Reserved</p>
+        </div>
+    </div>
+    <div class="w-full h-full p-0 m-0">
+        <img class="object-contain w-full" src="../img/background/FOOTER%201%20MAJ%201.svg" alt="">
+    </div>
+
+
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-3.4.0.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="../js/slick.js"></script>
+<script src="../js/index.js"></script>
+</body>
+
+</html>
+

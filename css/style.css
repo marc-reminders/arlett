@@ -1,0 +1,387 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Gothic&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* npx tailwindcss -i ./css/style.css -o ./dist/style.css --watch */
+@font-face {
+  font-family: "avenir", sans-serif;
+  src: url("./font/AvenirNextCondensed-Regular.ttf");
+}
+:root {
+  --customColor1: #C06520;
+}
+
+body {
+  color: white;
+}
+
+.dnone {
+  display: none;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.2s;
+}
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+.overlay a:hover, .overlay a:focus {
+  color: #C06520;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  z-index: 100;
+  margin-top: 30px;
+}
+.overlay-content .dnone:hover > ul {
+  display: inline-block;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px;
+  }
+
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    left: 35px;
+  }
+}
+.decor__header__cocktail__background {
+  background: url("../img/background/FOND ARLETT BLENDED.jpg") no-repeat center top;
+  position: relative;
+  z-index: 30;
+  background-size: contain;
+  filter: brightness(70%);
+}
+
+.decor__header__mizu__background {
+  background: url("../img/background/header.png") no-repeat center top;
+  position: relative;
+  z-index: 30;
+  background-size: contain;
+}
+
+@media screen and (min-width: 1200px) {
+  .decor__header__cocktail {
+    background: url("../img/background/HEAD GAUCHE 1 MAJ 1 (1).svg") no-repeat top left, url("../img/background/HEAD DROITE 2 MAJ 1 (1).svg") no-repeat top right;
+    position: relative;
+    z-index: 40;
+    background-size: auto;
+  }
+
+  .decor__header {
+    background: url("../img/background/Group 137 (1).svg") no-repeat top left, url("../img/background/HEAD DROITE 2 MAJ 1.svg") no-repeat top right;
+    position: relative;
+    z-index: 40;
+    display: block;
+    background-size: auto;
+  }
+
+  .decor__home__middle__top__right {
+    background: url("../img/background/MIDDLE DROITE 1 MAJ 1 (4).svg") no-repeat top right;
+  }
+
+  .decor__home__middle_right:after {
+    content: url("../img/background/MIDDLE DROITE 1 MAJ 1 (2).svg");
+    position: relative;
+    display: block;
+    right: 0;
+    top: -150px;
+  }
+
+  .decor__section__distillation {
+    background: url("../img/background/calque-distillerie.png") no-repeat top left;
+    background-size: cover;
+  }
+
+  .decor__mizunara__header {
+    background: url("../img/background/Fichier 1.png") no-repeat top;
+    background-size: contain;
+  }
+
+  .decor__disti__middle {
+    background: url("../img/background/MIDDLE DROITE 2 MAJ 1.svg") no-repeat left;
+    background-size: contain;
+    position: relative;
+  }
+
+  .decor__disti__header {
+    background: url("../img/background/HEAD GAUCHE 1 MAJ 1 (1).svg") no-repeat top left, url("../img/background/HEAD DROITE 2 MAJ 1.svg") no-repeat top right;
+    position: relative;
+    z-index: 40;
+    background-size: auto;
+  }
+}
+.header__video {
+  background: url("../img/background/COMPO-ARLETT-BARBADE-72dpi-scaled.jpg") no-repeat center;
+}
+
+.stroke-effect {
+  -webkit-text-stroke: 3px #C06520;
+}
+
+.line_decor::after {
+  content: "";
+  display: block;
+  position: relative;
+  height: 2px;
+  background-color: #C06520;
+  width: 100%;
+  top: -60px;
+  z-index: 2;
+}
+
+.line:after {
+  content: "";
+  display: block;
+  height: 6px;
+  width: 90px;
+  position: relative;
+  margin-top: 15px;
+  background: #C06520;
+}
+
+.line__footer__logo:before {
+  content: "";
+  display: block;
+  position: relative;
+  height: 1px;
+  background-color: #C06520;
+  width: 10%;
+  top: -15px;
+  left: 0;
+}
+.line__footer__logo:after {
+  content: "";
+  display: block;
+  position: relative;
+  height: 1px;
+  background-color: #C06520;
+  width: 100%;
+  top: -15px;
+}
+
+.line__footer__social:before {
+  content: "";
+  position: relative;
+  display: block;
+  height: 1px;
+  background-color: #C06520;
+  width: 100%;
+  padding-right: 10px;
+}
+.line__footer__social:after {
+  content: "";
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.line_decor__contact:before {
+  content: "";
+  display: block;
+  position: relative;
+  height: 2px;
+  background-color: #C06520;
+  top: 0;
+  width: 85%;
+  z-index: 2;
+}
+@media screen and (min-width: 1540px) {
+  .line_decor__contact:before {
+    width: 100%;
+    left: -42px;
+  }
+}
+
+.line__submit:after {
+  content: "";
+  display: block;
+  position: relative;
+  height: 2px;
+  background-color: #C06520;
+  width: 30px;
+  top: 7px;
+  margin: auto;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown .dropdown__content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown .dropdown__content .dropdown__content__link {
+  text-align: start;
+  padding: 20px 0;
+  text-decoration: none;
+  display: block;
+}
+.dropdown .dropdown__content .dropdown__content__link:hover {
+  color: #C06520;
+}
+
+.dropdown__content a:hover {
+  color: #C06520;
+}
+
+.dropdown:hover .dropdown__content {
+  display: block;
+}
+
+.card {
+  position: relative;
+  background: black;
+}
+.card::before, .card::after {
+  content: "";
+  position: absolute;
+  top: 1.25em;
+  bottom: 1.25em;
+  left: 1.25em;
+  right: 1.25em;
+}
+.card::before {
+  transform: scale(0, 1);
+  transition: transform ease-out 250ms;
+  border-top: 1px solid #C06520;
+  border-bottom: 1px solid #C06520;
+}
+.card::after {
+  transform: scale(1, 0);
+  transition: transform ease-out 250ms;
+  border-left: 1px solid #C06520;
+  border-right: 1px solid #C06520;
+}
+.card:hover::before {
+  transform: scale(1.05, 1);
+}
+.card:hover:after {
+  transform: scale(1, 1.05);
+}
+
+.card-img {
+  width: 100%;
+  display: block;
+  transition: opacity ease-out 250ms;
+  opacity: 1;
+  height: 300px;
+  object-fit: cover;
+}
+@media screen and (min-width: 1023px) {
+  .card-img {
+    height: 600px;
+  }
+}
+
+.card:hover .card-img {
+  opacity: 0.4;
+}
+
+.card-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  transition: opacity ease-out 250ms;
+  opacity: 0;
+}
+
+.card:hover .card-text {
+  opacity: 1;
+}
+
+.slick-current a img {
+  margin: auto;
+}
+
+.multiple-items .slick-next {
+  right: -7px;
+  color: var(--v3);
+}
+.multiple-items .slick-prev {
+  left: -7px;
+  color: var(--v3);
+}
+
+.multiple-items .slick-next {
+  right: -7px;
+}
+.multiple-items .slick-prev {
+  left: -7px;
+}
+
+@media screen and (min-width: 1024px) {
+  /* reutilisable */
+  .slick-initialized .slick-slide {
+    display: block;
+    padding: 0 20px;
+  }
+
+  .slick-next:before {
+    background: url("https://api.iconify.design/material-symbols/arrow-forward-ios-rounded.svg?color=white");
+  }
+
+  .slick-prev:before {
+    background: url("https://api.iconify.design/material-symbols/arrow-forward-ios-rounded.svg?color=white&rotate=180deg");
+  }
+
+  .slick-prev, .slick-next {
+    height: 25px;
+    width: 25px;
+    z-index: 15;
+  }
+
+  .slick-prev {
+    left: 10px;
+  }
+
+  .slick-next {
+    right: 10px;
+  }
+
+  .slick-next:before,
+.slick-prev:before {
+    content: "";
+    background-size: cover;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
