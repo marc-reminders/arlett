@@ -89,7 +89,14 @@ body {
   background: url("../img/background/FOND ARLETT BLENDED.jpg") no-repeat center top;
   position: relative;
   z-index: 30;
-  background-size: contain;
+  background-size: cover;
+  filter: brightness(70%);
+}
+.decor__header__blended__background {
+  background: url("../img/background/header (3).svg") no-repeat center top;
+  position: relative;
+  z-index: 30;
+  background-size: cover;
   filter: brightness(70%);
 }
 
