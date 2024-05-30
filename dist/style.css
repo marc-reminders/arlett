@@ -1751,6 +1751,10 @@ body {
     margin-top: 24rem;
   }
 
+  .lg\:ml-60{
+    margin-left: 15rem;
+  }
+
   .lg\:block{
     display: block;
   }
