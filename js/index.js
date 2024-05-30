@@ -14,6 +14,10 @@ function menu(){
 }
 
 
+$('.dropMenu').click(function(){
+    $(this).toggleClass('active').find('ul').toggleClass('dnone')
+})
+/*
 const me = document.getElementsByClassName( 'dropMenu' );
 const list = document.getElementsByClassName( 'dropList' );
 
@@ -26,3 +30,4 @@ menu.addEventListener( 'click', () => {
         document.body.style.overflow = "hidden"
     }
 } );
+*/
