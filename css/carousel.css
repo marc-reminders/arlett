@@ -1,0 +1,40 @@
+#btn-prev, #btn-next {
+  cursor: pointer;
+}
+
+#bottles .collection {
+  height: 870px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../img/bottle/copper.png) bottom center no-repeat;
+}
+#bottles .collection .content {
+  height: 867px;
+  width: 410px;
+  overflow: hidden;
+  padding: 50px;
+}
+#bottles .collection .content img {
+  width: 100%;
+  border-bottom-left-radius: 0.6rem;
+  border-bottom-right-radius: 0.6rem;
+}
+#bottles .collection .text-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#bottles .collection .text-content h3 {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+#bottles .collection .text-content p {
+  max-width: 22rem;
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+/*# sourceMappingURL=carousel.css.map */
