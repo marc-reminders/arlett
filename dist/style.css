@@ -693,6 +693,10 @@ video {
   margin-top: 3rem;
 }
 
+.mt-16{
+  margin-top: 4rem;
+}
+
 .mt-20{
   margin-top: 5rem;
 }
@@ -715,10 +719,6 @@ video {
 
 .mt-8{
   margin-top: 2rem;
-}
-
-.mt-16{
-  margin-top: 4rem;
 }
 
 .block{
@@ -897,6 +897,10 @@ video {
   gap: 6rem;
 }
 
+.gap-4{
+  gap: 1rem;
+}
+
 .gap-6{
   gap: 1.5rem;
 }
@@ -1029,6 +1033,10 @@ video {
 .py-8{
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.pl-3{
+  padding-left: 0.75rem;
 }
 
 .pl-8{
@@ -1255,19 +1263,21 @@ body {
   filter: brightness(70%);
 }
 
-.decor__header__blended__background {
-  background: url("../img/background/header (3).svg") no-repeat center top;
-  position: relative;
-  z-index: 30;
-  background-size: cover;
-  filter: brightness(70%);
+@media screen and (min-width: 1200px) {
+  .decor__header__blended__background {
+    background: url("../img/background/header (3).svg") no-repeat center top;
+    position: relative;
+    z-index: 30;
+    background-size: cover;
+    filter: brightness(70%);
+  }
 }
 
 .decor__header__mizu__background {
   background: url("../img/background/header.png") no-repeat center top;
   position: relative;
   z-index: 30;
-  background-size: contain;
+  background-size: cover;
 }
 
 @media screen and (min-width: 1200px) {
@@ -1639,6 +1649,10 @@ body {
 }
 
 @media not all and (min-width: 1024px){
+  .max-lg\:w-2\/3{
+    width: 66.666667%;
+  }
+
   .max-lg\:items-center{
     align-items: center;
   }
@@ -1721,6 +1735,10 @@ body {
     margin-left: 5rem;
   }
 
+  .lg\:ml-80{
+    margin-left: 20rem;
+  }
+
   .lg\:mt-0{
     margin-top: 0px;
   }
@@ -1745,8 +1763,8 @@ body {
     height: 1244px;
   }
 
-  .lg\:h-screen{
-    height: 100vh;
+  .lg\:h-\[1300px\]{
+    height: 1300px;
   }
 
   .lg\:max-h-\[250px\]{

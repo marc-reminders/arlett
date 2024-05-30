@@ -92,19 +92,22 @@ body {
   background-size: cover;
   filter: brightness(70%);
 }
-.decor__header__blended__background {
-  background: url("../img/background/header (3).svg") no-repeat center top;
-  position: relative;
-  z-index: 30;
-  background-size: cover;
-  filter: brightness(70%);
+@media screen and (min-width: 1200px){
+  .decor__header__blended__background {
+    background: url("../img/background/header (3).svg") no-repeat center top;
+    position: relative;
+    z-index: 30;
+    background-size: cover;
+    filter: brightness(70%);
+  }
+
 }
 
 .decor__header__mizu__background {
   background: url("../img/background/header.png") no-repeat center top;
   position: relative;
   z-index: 30;
-  background-size: contain;
+  background-size: cover;
 
 }
 
