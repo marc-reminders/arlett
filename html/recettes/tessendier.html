@@ -24,6 +24,7 @@
 <!--    div video -->
 <header class="w-full  top-0 bg-center ">
     <div class="w-full decor__header__cocktail ">
+        <!--  nav -->
         <div class="w-full">
             <nav class=" container mx-auto ">
                 <div class=" py-8 px-8 lg:px-0 max-w-screen-xl flex flex-col items-center justify-start mx-auto lg:flex-row ">
@@ -42,54 +43,72 @@
 
                                 <!-- Overlay content -->
                                 <div class="overlay-content ">
-                                    <div class="dropMenu text-4xl" onclick="this.classList.toggle('active')">Nos whiskys
-                                        <ul class="dropList dnone">
-                                            <li><a>mizunara</a></li>
-                                            <li><a>mizunara</a></li>
-                                            <li><a>mizunara</a></li>
+                                    <div class="dropMenu text-4xl uppercase hover:text-customColor1">Nos whiskys
+                                        <ul class="dropList dnone  ">
+                                            <li class="uppercase ">Single malt</li>
+                                            <li><a class="text-sm pl-3 hover:text-bottleOri normal-case"
+                                                   href="../../html/original.html">Original</a></li>
+                                            <li><a class="text-sm pl-3 hover:text-bottleMizu normal-case"
+                                                   href="../../html/mizunara.html">Mizunara</a></li>
+                                            <li><a class="text-sm pl-3 hover:text-bottleTourb normal-case"
+                                                   href="../../html/tourbe.html">Tourbé</a></li>
+                                            <li><a class="text-sm pl-3 hover:text-bottlebarb normal-case"
+                                                   href="../../html/barbade.html">Barbade</a></li>
+                                            <li><a class=" pl-3 hover:text-customColor1"
+                                                   href="../../html/blended.html">Blended</a>
+                                            </li>
                                         </ul>
+
                                     </div>
-                                    <a href="../../html/distillerie.html">La Distillerie Tessendier</a>
-                                    <a href="../../html/cocktail.html">Cocktails</a>
-                                    <a href="../../html/contact.html">Contact</a>
-                                    <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+                                    <a class="uppercase hover:text-customColor1" href="../../html/distillerie.html">La
+                                        Distillerie Tessendier</a>
+                                    <a class="uppercase hover:text-customColor1" href="../../html/cocktail.html">Cocktails</a>
+                                    <a class="uppercase hover:text-customColor1" href="../../html/contact.html">Contact</a>
+                                    <a class="hover:text-customColor1" target="_blank"
+                                       href="https://www.vinatis.com/maisons/arlett-whisky"><i
+                                            class="fa-solid fa-bag-shopping"></i></a>
                                 </div>
                             </div>
-                            <span onclick="openNav()"><i class="fa-solid fa-bars fa-2xl"></i>
+                            <span onclick="openNav()"><i class="fa-solid fa-bars fa-2xl text-customColor1"></i>
                     </span>
                         </div>
                         <!-- nav fullscreen -->
                         <div class="w-full hidden lg:block text-center ">
-                            <ul class="items-center text-xl uppercase text-white self-center inline-flex w-full flex-col lg:flex-row  md:mt-0">
+                            <ul class="items-center text-xl text-white self-center inline-flex w-full flex-col lg:flex-row  md:mt-0">
                                 <li class="dropdown border-r-2 border-customColor1 px-3">
                                     <div class="dropdown__btn uppercase hover:text-customColor1">Nos whiskys</div>
-                                    <div class="dropdown__content text-start ">
-                                        <div class="text-start uppercase drop-menu"
-                                             onclick="this.classList.toggle('active')">Single Malt
-                                            <ul class="dnone drop-list">
-                                                <li><a>mizunara</a></li>
-                                                <li><a>mizunara</a></li>
-                                                <li><a>mizunara</a></li>
+                                    <div class="dropdown__content text-start relative z-50 ">
+                                        <div class="pl-2 text-start drop-menu dropMenu cursor-pointer"
+                                        >Single Malt
+                                            <ul class="dropList dnone">
+                                                <li class=" "><a class="text-lg pl-3 hover:text-bottleOri"
+                                                                 href="../../html/original.html">Original</a></li>
+                                                <li class=" "><a class="text-lg pl-3 hover:text-bottleMizu"
+                                                                 href="../../html/mizunara.html">Mizunara</a></li>
+                                                <li class=" "><a class="text-lg pl-3 hover:text-bottleTourb"
+                                                                 href="../../html/tourbe.html">Tourbé</a></li>
+                                                <li class=" "><a class="text-lg pl-3 hover:text-bottlebarb"
+                                                                 href="../../html/barbade.html">Barbade</a></li>
                                             </ul>
                                         </div>
-                                        <a class="text-start uppercase"
+                                        <a class="text-start  hover:text-customColor1 pl-2"
                                            href="../../html/blended.html">Blended</a>
                                     </div>
                                 </li>
-                                <li class="inline-block border-r-2 border-customColor1 px-3">
+                                <li class="inline-block border-r-2 border-customColor1 px-3 uppercase">
                                     <a class="hover:text-customColor1"
                                        href="../../html/distillerie.html">La Distillerie Tessendier</a>
                                 </li>
-                                <li class="inline-block border-r-2 border-customColor1 px-3">
+                                <li class="inline-block border-r-2 border-customColor1 px-3 uppercase">
                                     <a class="hover:text-customColor1"
                                        href="../../html/cocktail.html">Cocktails</a>
                                 </li>
-                                <li class="inline-block border-r-2 border-customColor1 px-3">
+                                <li class="inline-block border-r-2 border-customColor1 px-3 uppercase">
                                     <a class="hover:text-customColor1"
                                        href="../../html/contact.html">Contact</a>
                                 </li>
-                                <li class="inline-block px-3">
-                                    <a class="hover:text-customColor1 "
+                                <li class="inline-block px-3 uppercase">
+                                    <a class="hover:text-customColor1 " target="_blank"
                                        href="https://www.vinatis.com/maisons/arlett-whisky"><i
                                             class="fa-solid fa-bag-shopping"></i>
                                     </a>
@@ -100,7 +119,6 @@
                 </div>
             </nav>
         </div>
-
         <div class="container mx-auto flex flex-col justify-center mt-32 text-center">
 
             <h1 class="text-9xl font-league uppercase"><br><span class="text-black stroke-effect">Le </span>Tessendier</h1>

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=League+Gothic&display=swap");
 @tailwind base;
 @tailwind components;
@@ -89,7 +90,28 @@ body {
 }
 @media screen and (min-width: 1024px) {
   .decor__header__mizu__background {
-    background: url("../img/background/header.png") no-repeat center top;
+    background: url("../img/panorama/pano mizu.jpg") no-repeat center top;
+    position: relative;
+    z-index: 30;
+    background-size: cover;
+  }
+
+  .decor__header__original__background {
+    background: url("../img/panorama/pano original.jpg") no-repeat center top;
+    position: relative;
+    z-index: 30;
+    background-size: cover;
+  }
+
+  .decor__header__tourbe__background {
+    background: url("../img/panorama/pano tourbé.jpg") no-repeat center top;
+    position: relative;
+    z-index: 30;
+    background-size: cover;
+  }
+
+  .decor__header__barbade__background {
+    background: url("../img/panorama/pano barbade.jpg") no-repeat center top;
     position: relative;
     z-index: 30;
     background-size: cover;

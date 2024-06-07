@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 @import url("https://fonts.googleapis.com/css2?family=League+Gothic&display=swap");
 
 /*
@@ -761,10 +763,6 @@ video {
   height: 1280px;
 }
 
-.h-\[28px\]{
-  height: 28px;
-}
-
 .h-full{
   height: 100%;
 }
@@ -779,10 +777,6 @@ video {
 
 .w-1\/2{
   width: 50%;
-}
-
-.w-\[50px\]{
-  width: 50px;
 }
 
 .w-full{
@@ -963,11 +957,6 @@ video {
   border-radius: 0.75rem;
 }
 
-.rounded-l-2xl{
-  border-top-left-radius: 1rem;
-  border-bottom-left-radius: 1rem;
-}
-
 .border{
   border-width: 1px;
 }
@@ -1089,6 +1078,11 @@ video {
 .py-8{
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.px-10{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .pb-2{
@@ -1356,7 +1350,28 @@ body {
 
 @media screen and (min-width: 1024px) {
   .decor__header__mizu__background {
-    background: url("../img/background/header.png") no-repeat center top;
+    background: url("../img/panorama/pano mizu.jpg") no-repeat center top;
+    position: relative;
+    z-index: 30;
+    background-size: cover;
+  }
+
+  .decor__header__original__background {
+    background: url("../img/panorama/pano original.jpg") no-repeat center top;
+    position: relative;
+    z-index: 30;
+    background-size: cover;
+  }
+
+  .decor__header__tourbe__background {
+    background: url("../img/panorama/pano tourbé.jpg") no-repeat center top;
+    position: relative;
+    z-index: 30;
+    background-size: cover;
+  }
+
+  .decor__header__barbade__background {
+    background: url("../img/panorama/pano barbade.jpg") no-repeat center top;
     position: relative;
     z-index: 30;
     background-size: cover;
