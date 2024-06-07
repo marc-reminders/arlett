@@ -23,6 +23,7 @@ body {
   display: none;
 }
 
+
 // hamburger //
 
 .overlay {
@@ -46,9 +47,7 @@ body {
     display: block;
     transition: 0.3s;
 
-    &:hover, &:focus {
-      color: #C06520;
-    }
+
   }
 }
 
@@ -91,25 +90,30 @@ body {
   z-index: 30;
   background-size: cover;
   filter: brightness(70%);
+
 }
 @media screen and (min-width: 1200px){
   .decor__header__blended__background {
-    background: url("../img/background/header (3).svg") no-repeat center top;
+    background: url("../img/background/Sans titre - 1 (1).jpg") no-repeat center top;
+    filter: brightness(70%);
     position: relative;
     z-index: 30;
     background-size: cover;
-    filter: brightness(70%);
+
+
   }
+}
+@media screen and (min-width: 1024px){
+  .decor__header__mizu__background {
+    background: url("../img/background/header.png") no-repeat center top;
+    position: relative;
+    z-index: 30;
+    background-size: cover;
 
+
+  }
 }
 
-.decor__header__mizu__background {
-  background: url("../img/background/header.png") no-repeat center top;
-  position: relative;
-  z-index: 30;
-  background-size: cover;
-
-}
 
 
 // decor elements //
@@ -298,17 +302,11 @@ body {
       text-decoration: none;
       display: block;
 
-      &:hover {
-        color: #C06520;
-      }
 
     }
   }
 }
 
-.dropdown__content a:hover {
-  color: #C06520;
-}
 
 .dropdown:hover .dropdown__content {
   display: block;
@@ -375,7 +373,7 @@ body {
 
 .card-text {
   position: absolute;
-  top: 50%;
+  top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -400,6 +398,10 @@ body {
   .slick-prev {
     left: -7px;
     color: var(--v3);
+  }
+  .slick-initialized .slick-slide {
+    display: block;
+    padding: 0 20px;
   }
 }
 

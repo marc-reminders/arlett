@@ -14,6 +14,10 @@ module.exports = {
             },
             colors: {
                 'customColor1': "#C06520",
+                'bottleMizu': "#595958",
+                'bottlebarb': "#173f87",
+                'bottleTourb': "#4a6060",
+                'bottleOri': "#975656",
             }
 
         },

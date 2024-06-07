@@ -7,13 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
           type="text/css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css"
+          href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <link href="./dist/style.css" rel="stylesheet">
 
     <title>Arlett - Whisky</title>
@@ -22,7 +24,8 @@
 <body class="bg-black font-league">
 
 
-<header class=" w-full h-screen top-0 bg-center decor__header lg:mb-32">
+<header class=" w-full h-[1280px] top-0 bg-center decor__header lg:mb-32">
+
     <!--  nav -->
     <div class="w-full">
         <nav class=" container mx-auto ">
@@ -42,54 +45,68 @@
 
                             <!-- Overlay content -->
                             <div class="overlay-content ">
-                                <div class="dropMenu text-4xl">Nos whiskys
-                                    <ul class="dropList dnone">
-                                        <li><a class="text-lg pl-3" href="./html/mizunara.html">Original</a></li>
-                                        <li><a class="text-lg pl-3" href="./html/mizunara.html">Mizunara</a></li>
-                                        <li><a class="text-lg pl-3" href="./html/mizunara.html">Tourbé</a></li>
+                                <div class="dropMenu text-4xl uppercase hover:text-customColor1">Nos whiskys
+                                    <ul class="dropList dnone  ">
+                                        <p class="uppercase ">Single malt</p>
+                                        <li><a class="text-sm pl-3 hover:text-bottleOri normal-case"
+                                               href="./html/mizunara.html">Original</a></li>
+                                        <li><a class="text-sm pl-3 hover:text-bottleMizu normal-case"
+                                               href="./html/mizunara.html">Mizunara</a></li>
+                                        <li><a class="text-sm pl-3 hover:text-bottleTourb normal-case"
+                                               href="./html/mizunara.html">Tourbé</a></li>
+                                        <li><a class="text-sm pl-3 hover:text-bottlebarb normal-case"
+                                               href="./html/mizunara.html">Barbade</a></li>
+                                        <a class=" pl-3 hover:text-customColor1" href="./html/blended.html">Blended</a>
                                     </ul>
+
                                 </div>
-                                <a href="./html/distillerie.html">La Distillerie Tessendier</a>
-                                <a href="./html/cocktail.html">Cocktails</a>
-                                <a href="./html/contact.html">Contact</a>
-                                <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+                                <a class="uppercase hover:text-customColor1" href="./html/distillerie.html">La
+                                    Distillerie Tessendier</a>
+                                <a class="uppercase hover:text-customColor1" href="./html/cocktail.html">Cocktails</a>
+                                <a class="uppercase hover:text-customColor1" href="./html/contact.html">Contact</a>
+                                <a class="hover:text-customColor1" target="_blank" href="https://www.vinatis.com/maisons/arlett-whisky"><i class="fa-solid fa-bag-shopping"></i></a>
                             </div>
                         </div>
-                        <span onclick="openNav()"><i class="fa-solid fa-bars fa-2xl"></i>
+                        <span onclick="openNav()"><i class="fa-solid fa-bars fa-2xl text-customColor1"></i>
                     </span>
                     </div>
                     <!-- nav fullscreen -->
                     <div class="w-full hidden lg:block text-center ">
-                        <ul class="items-center text-xl uppercase text-white self-center inline-flex w-full flex-col lg:flex-row  md:mt-0">
+                        <ul class="items-center text-xl text-white self-center inline-flex w-full flex-col lg:flex-row  md:mt-0">
                             <li class="dropdown border-r-2 border-customColor1 px-3">
                                 <div class="dropdown__btn uppercase hover:text-customColor1">Nos whiskys</div>
-                                <div class="dropdown__content text-start ">
-                                    <div class="text-start uppercase drop-menu dropMenu"
-                                        >Single Malt
+                                <div class="dropdown__content text-start relative z-50 ">
+                                    <div class="pl-2 text-start drop-menu dropMenu cursor-pointer"
+                                    >Single Malt
                                         <ul class="dropList dnone">
-                                            <li><a class="text-lg pl-3" href="./html/mizunara.html">Original</a></li>
-                                            <li><a class="text-lg pl-3" href="./html/mizunara.html">Mizunara</a></li>
-                                            <li><a class="text-lg pl-3" href="./html/mizunara.html">Tourbé</a></li>
+                                            <li class=" "><a class="text-lg pl-3 hover:text-bottleOri"
+                                                             href="./html/mizunara.html">Original</a></li>
+                                            <li class=" "><a class="text-lg pl-3 hover:text-bottleMizu"
+                                                             href="./html/mizunara.html">Mizunara</a></li>
+                                            <li class=" "><a class="text-lg pl-3 hover:text-bottleTourb"
+                                                             href="./html/mizunara.html">Tourbé</a></li>
+                                            <li class=" "><a class="text-lg pl-3 hover:text-bottlebarb"
+                                                             href="./html/mizunara.html">Barbade</a></li>
                                         </ul>
                                     </div>
-                                    <a class="text-start uppercase"
+                                    <a class="text-start  hover:text-customColor1 pl-2"
                                        href="./html/blended.html">Blended</a>
                                 </div>
                             </li>
-                            <li class="inline-block border-r-2 border-customColor1 px-3">
+                            <li class="inline-block border-r-2 border-customColor1 px-3 uppercase">
                                 <a class="hover:text-customColor1"
                                    href="./html/distillerie.html">La Distillerie Tessendier</a>
                             </li>
-                            <li class="inline-block border-r-2 border-customColor1 px-3">
+                            <li class="inline-block border-r-2 border-customColor1 px-3 uppercase">
                                 <a class="hover:text-customColor1"
                                    href="./html/cocktail.html">Cocktails</a>
                             </li>
-                            <li class="inline-block border-r-2 border-customColor1 px-3">
+                            <li class="inline-block border-r-2 border-customColor1 px-3 uppercase">
                                 <a class="hover:text-customColor1"
                                    href="./html/contact.html">Contact</a>
                             </li>
-                            <li class="inline-block px-3">
-                                <a class="hover:text-customColor1 "
+                            <li class="inline-block px-3 uppercase">
+                                <a class="hover:text-customColor1 " target="_blank"
                                    href="https://www.vinatis.com/maisons/arlett-whisky"><i
                                         class="fa-solid fa-bag-shopping"></i>
                                 </a>
@@ -102,7 +119,7 @@
     </div>
     <div class="container mx-auto max-w-[230px]">
         <div class="w-full ">
-            <img class="mx-auto" src="./img/Calque%201.svg" alt="">
+            <img class="mx-auto" src="./img/Calque%201%20(1).png" alt="">
         </div>
 
     </div>
@@ -134,13 +151,16 @@
             </div>
             <div class="basis-1/2 self-center px-6 ">
                 <div class="max-w-[400px]">
-                    <h2 class="text-white font-avenir font-bold text-6xl uppercase text-justify " data-aos="fade-down">Arlett.</h2>
-                    <p class="text-white text-base font-avenir  mt-12 text-justify" data-aos="fade-down">Arlett est le fruit de la quête
+                    <h2 class="text-white font-avenir font-bold text-6xl uppercase text-justify " data-aos="fade-down">
+                        Arlett.</h2>
+                    <p class="text-white text-base font-avenir  mt-12 text-justify" data-aos="fade-down">Arlett est le
+                        fruit de la quête
                         constante des frères Tessendier, celle du goût et
                         celle de créer de
                         nouveaux spiritueux qui ont du sens.
                     </p>
-                    <p class="text-white text-base font-avenir mt-20 text-justify"  data-aos="fade-down">La Distillerie Tessendier a lancé le
+                    <p class="text-white text-base font-avenir mt-20 text-justify" data-aos="fade-down">La Distillerie
+                        Tessendier a lancé le
                         whisky Arlett par pure passion des spiritueux,
                         avec l’envie de
                         poursuivre de nouveaux challenges et de se lancer dans une nouvelle ère de travail. Nous
@@ -150,36 +170,35 @@
                         innover.
                     </p>
                     <div class="mt-20 ">
-                        <a><img class="mx-auto" src="./img/Group%20117.svg" alt="" data-aos="fade-down"></a>
+                        <a target="_blank" href="https://distillerie-tessendier.com/fr/">
+                            <img class="mx-auto"
+                                 src="./img/Group%20117.svg"
+                                 alt=""
+                                 data-aos="fade-down">
+                        </a>
                     </div>
                 </div>
-
-
             </div>
         </div>
-
     </section>
 
     <section class="container mx-auto px-6">
-        <div class="w-full flex justify-center lg:justify-start py-12">
-            <a class="text-white font-league max-w-[460px] text-6xl uppercase" data-aos="fade-down">découvrez notre<br><span
-                    class="flex flex-row self-center items-center gap-8" data-aos="fade-down">savoir faire
-                    <svg  data-aos="fade-down"
-                            width="63" height="34" viewBox="0 0 63 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M24.8182 0C24.8182 9.18392 12.5517 17 0 17C12.5517 17 24.8182 24.8161 24.8182 34"
-                      stroke="#C06520" stroke-width="2"/>
-                <path d="M4.77271 17L63 17" stroke="#C06520" stroke-width="2"/>
-                    </svg>
-                </span>
+        <div class="w-full flex justify-center lg:justify-start py-12 pl-[5%]">
+            <a href="./html/distillerie.html"
+               class="px-6 max-sm:text-center py-4 text-customColor1 font-league max-w-[460px] text-3xl uppercase border-2 border-customColor1 rounded-full"
+               data-aos="fade-down">découvrez
+                notre savoir faire
+
+
             </a>
         </div>
 
         <div class="w-full">
-            <img class="mx-auto " src="./img/background/Frame%20110.svg" alt=""  data-aos="fade-down">
+            <img class="mx-auto " src="./img/background/Frame%20110.svg" alt="" data-aos="fade-down">
         </div>
     </section>
 
-    <section class="w-full flex flex-col lg:flex-row my-32"  data-aos="fade-down">
+    <section class="w-full flex flex-col lg:flex-row my-32" data-aos="fade-down">
 
         <div class="w-full lg:basis-2/3 self-center line_decor">
             <img class="mx-auto relative z-10"
@@ -187,7 +206,7 @@
         </div>
 
         <div class="lg:basis-1/3 self-center mt-8 lg:mt-0 ">
-            <h2 class="text-white text-7xl text-justify font-league uppercase"  data-aos="fade-down">
+            <h2 class="text-white text-7xl text-justify font-league uppercase" data-aos="fade-down">
                 Nos whiskys<br> <span class="text-black text-10xl stroke-effect">Français</span>
             </h2>
         </div>
@@ -199,7 +218,8 @@
     <section class="border-t-2 border-customColor1 py-24">
         <div class="container mx-auto">
             <div id="bottles">
-                <div id="bottles-control" class="flex justify-center gap-8 text-center items-center"  data-aos="fade-down">
+                <div id="bottles-control" class="flex justify-center gap-8 text-center items-center"
+                     data-aos="fade-down">
                     <div id="btn-prev">
                         <svg width="51" height="30" viewBox="0 0 51 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0.585786 13.5858C-0.195262 14.3668 -0.195262 15.6332 0.585786 16.4142L13.3137 29.1421C14.0948 29.9232 15.3611 29.9232 16.1421 29.1421C16.9232 28.3611 16.9232 27.0948 16.1421 26.3137L4.82843 15L16.1421 3.68629C16.9232 2.90524 16.9232 1.63891 16.1421 0.857864C15.3611 0.0768156 14.0948 0.0768156 13.3137 0.857864L0.585786 13.5858ZM48.2292 17C49.3337 17 50.2292 16.1046 50.2292 15C50.2292 13.8954 49.3337 13 48.2292 13V17ZM2 17L48.2292 17V13L2 13L2 17Z"
@@ -248,7 +268,7 @@
             <div class="">
                 <img src="./img/background/Frame%20109.svg" alt="">
             </div>
-            <div class="w-full mx-auto container"  data-aos="fade-down">
+            <div class="w-full mx-auto container" data-aos="fade-down">
                 <h3 class="ml-20 mt-8 text-6xl uppercase line">nos <span
                         class="stroke-effect text-black">cocktails</span> <br>signature
                 </h3>
@@ -264,7 +284,8 @@
                          alt="">
 
                     <div class="card-text">
-                        <h3 class="card-title text-2xl font-league uppercase"  data-aos="fade-down">Arlett <br>Ginger Ale</h3>
+                        <h3 class="card-title text-2xl font-league uppercase" data-aos="fade-down">Arlett Ginger Ale
+                        </h3>
 
                     </div>
                 </div>
@@ -274,7 +295,7 @@
                     <img class="card-img" src="./img/cocktail/ARLETT%20TOURBE%20-%20COCKTAIL%20LADY%20ARLETT%2002.jpg"
                          alt="">
                     <div class="card-text">
-                        <h3 class="card-title text-2xl font-league uppercase" data-aos="fade-down">Lady <br>Arlett</h3>
+                        <h3 class="card-title text-2xl font-league uppercase" data-aos="fade-down">Lady Arlett</h3>
 
                     </div>
                 </div>
@@ -284,7 +305,7 @@
                     <img class="card-img " src="./img/cocktail/ARLETT%20MIZUNARA%20-%20COCKTAIL%20ARLETT%20SOUR.jpg"
                          alt="">
                     <div class="card-text">
-                        <h3 class="card-title text-2xl font-league uppercase" data-aos="fade-down">Arlett <br>Sour</h3>
+                        <h3 class="card-title text-2xl font-league uppercase" data-aos="fade-down">Arlett Sour</h3>
 
                     </div>
                 </div>
@@ -337,9 +358,9 @@
 
     <div class="container mx-auto w-full">
         <ul class="flex flex-row text-customColor1 font-avenir ">
-            <li class="border-r-2 border-customColor1 px-3"><a>Mentions légales</a></li>
-            <li class="border-r-2 border-customColor1 px-3"><a>Politique de confidentialité</a></li>
-            <li class="px-3"><a>Politique de cookie</a></li>
+            <li class="border-r-2 border-customColor1 px-3"><a href="./html/mentions.html">Mentions légales</a></li>
+            <li class="border-r-2 border-customColor1 px-3"><a href="./html/politique-conf.html">Politique de confidentialité</a></li>
+            <li class="px-3"><a href="./html/cookies.html">Politique de cookie</a></li>
         </ul>
     </div>
 
