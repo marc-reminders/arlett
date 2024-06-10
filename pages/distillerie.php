@@ -26,7 +26,7 @@
     </article>
 
 
-    <article class="flex flex-col lg:flex-row-reverse lg:gap-10 gap-6 justify-around ">
+    <article class="flex flex-col lg:flex-row-reverse lg:gap-10 gap-6 justify-around " id="orge">
         <div class="basis-1/2 self-center m-6" data-aos="fade-down">
             <img class="mx-auto" src="/img/distillerie/image%2015%20(2).png" alt="">
         </div>
@@ -40,7 +40,7 @@
         </div>
     </article>
 
-    <article class="flex flex-col lg:flex-row lg:gap-10 gap-6 justify-around ">
+    <article class="flex flex-col lg:flex-row lg:gap-10 gap-6 justify-around " id="brasserie">
         <div class="basis-1/2 self-center m-6" data-aos="fade-down">
             <img class="mx-auto" src="/img/distillerie/image%2015%20(3).png" alt="">
         </div>
@@ -59,7 +59,7 @@
         </div>
     </article>
 
-    <article class="flex flex-col lg:flex-row-reverse lg:gap-10 gap-6 justify-around ">
+    <article class="flex flex-col lg:flex-row-reverse lg:gap-10 gap-6 justify-around " id="distillerie">
         <div class="basis-1/2 self-center m-6" data-aos="fade-down">
             <img class="mx-auto" src="/img/distillerie/image%2015%20(4).png" alt="">
         </div>
@@ -75,7 +75,7 @@
         </div>
     </article>
 
-    <article class="flex flex-col lg:flex-row lg:gap-10 gap-6 justify-around ">
+    <article class="flex flex-col lg:flex-row lg:gap-10 gap-6 justify-around " id="chais">
         <div class="basis-1/2 self-center m-6" data-aos="fade-down">
             <img class="mx-auto" src="/img/distillerie/image%2015%20(5)-min.png" alt="">
         </div>
@@ -91,7 +91,7 @@
         </div>
     </article>
 
-    <article class="flex flex-col lg:flex-row-reverse lg:gap-10 gap-6 justify-around ">
+    <article class="flex flex-col lg:flex-row-reverse lg:gap-10 gap-6 justify-around " id="assemblage">
         <div class="basis-1/2 self-center m-6" data-aos="fade-down">
             <img class="mx-auto" src="/img/distillerie/image%2015%20(6).png" alt="">
         </div>
