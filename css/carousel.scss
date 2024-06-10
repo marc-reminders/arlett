@@ -1,6 +1,12 @@
 #btn-prev, #btn-next {
   cursor: pointer;
 }
+@media (max-width: 1100px) {
+  .theta-carousel-inner-container {
+    left: auto !important;
+    margin-top: 150px;
+  }
+}
 #bottles .collection {
   height: 870px;
   display: flex;
