@@ -17,10 +17,10 @@ $('.swiper-wrapper').theta_carousel( {
     scaleY: 0,
     path: {
         settings: {
-            shiftY: 97,
-            shiftZ: -127,
+            shiftY: 197,
+            shiftZ: -927,
             rotationAngleZY: 19,
-            a: 433,
+            a: 833,
             b: 135,
             endless: true
         },
