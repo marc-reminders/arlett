@@ -12,7 +12,7 @@ $(function(){
             return;
         }
 
-        $('#filter-recette li:first-child').removeClass('text-customColor1')
+        $('#filter-recette li').removeClass('text-customColor1')
         $(this).toggleClass("text-customColor1")
 
         $('#filter-recette .text-customColor1').each(function(){
