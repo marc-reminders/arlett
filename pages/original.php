@@ -74,7 +74,7 @@
                 </div>
                 <div class="self-center basis-4/5" data-aos="fade-down">
                     <p>
-                        le nez révèle des notes fruitées et boisées auxquelles s'ajoutent des notes de miel, de cacao et de résineux.
+                        Le nez révèle des notes fruitées et boisées auxquelles s'ajoutent des notes de miel, de cacao et de résineux.
                     </p>
                 </div>
             </div>
@@ -84,7 +84,7 @@
                 </div>
                 <div class="self-center basis-4/5" data-aos="fade-down">
                     <p>
-                        l'attaque est nette et franche avec une amplitude aromatique structurée, mais également du velouté grâce aux notes de tabac blond.
+                        L'attaque est nette et franche avec une amplitude aromatique structurée, mais également du velouté grâce aux notes de tabac blond.
 
                     </p>
                 </div>
@@ -95,7 +95,7 @@
                 </div>
                 <div class="self-center basis-4/5" data-aos="fade-down">
                     <p>
-                        idéal sur glace mais également dans de délicieux cocktails.
+                        Idéal sur glace mais également dans de délicieux cocktails.
                     </p>
                 </div>
             </div>

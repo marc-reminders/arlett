@@ -80,7 +80,7 @@
                 </div>
                 <div class="self-center basis-4/5" data-aos="fade-down">
                     <p>
-                        au nez, on retrouve des notes de banane mûre, de vanille et d'épices.
+                        Au nez, on retrouve des notes de banane mûre, de vanille et d'épices.
                     </p>
                 </div>
             </div>
@@ -90,7 +90,7 @@
                 </div>
                 <div class="self-center basis-4/5" data-aos="fade-down">
                     <p>
-                        la bouche est ample, intense et épicée avec des notes de tabac blond et de réglisse.
+                        La bouche est ample, intense et épicée avec des notes de tabac blond et de réglisse.
                     </p>
                 </div>
             </div>
@@ -100,7 +100,7 @@
                 </div>
                 <div class="self-center basis-4/5" data-aos="fade-down">
                     <p>
-                        idéal sur glace mais également dans de délicieux cocktails fruités.
+                        Idéal sur glace mais également dans de délicieux cocktails fruités.
                     </p>
                 </div>
             </div>
