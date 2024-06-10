@@ -8,7 +8,18 @@
 
 @font-face {
   font-family: "avenir", sans-serif;
-  src: url("dist/font/AvenirNextCondensed-Regular.otf") format("opentype");
+  src:
+          url("dist/font/AvenirNextCondensed-Regular.otf") format("opentype"),
+          url("dist/font/AvenirNextCondensed-Regular.ttf") format("truetype")
+;
+}
+
+@font-face {
+  font-family: "avenir", sans-serif;
+  src:
+          url("dist/font/AvenirNextCondensed-Bold.otf") format("opentype")
+;
+  font-weight: bold;
 }
 
 :root {

@@ -10,7 +10,7 @@ module.exports = {
         extend: {
             fontFamily: {
                 league: "League Gothic",
-                avenir:"AvenirNextCondensed-Regular",
+                avenir: "avenir",
             },
             colors: {
                 'customColor1': "#C06520",
