@@ -32,7 +32,7 @@ body {
   z-index: 100;
   left: 0;
   top: 0;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.9);
   overflow-x: hidden;
   transition: 0.2s;
@@ -77,19 +77,24 @@ body {
   }
 }
 .decor__header__cocktail__background {
-  background: url("../img/background/background-cocktail.jpg") no-repeat center top;
+  background: url("../img/background/Sans titre - 5 (2).jpg") no-repeat center top;
   position: relative;
   z-index: 30;
   background-size: cover;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
   .decor__header__blended__background {
     background: url("../img/background/Sans titre - 1 (1).jpg") no-repeat center top;
-    filter: brightness(70%);
     position: relative;
     z-index: 30;
+    background-size: contain;
+  }
+}
+@media screen and (min-width: 1024px) and (min-width: 2500px) {
+  .decor__header__blended__background {
     background-size: cover;
+    height: 2000px !important;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -97,27 +102,54 @@ body {
     background: url("../img/panorama/pano mizu.jpg") no-repeat center top;
     position: relative;
     z-index: 30;
+    background-size: contain;
+  }
+}
+@media screen and (min-width: 1024px) and (min-width: 1400px) {
+  .decor__header__mizu__background {
+    height: 2300px !important;
     background-size: cover;
   }
-
+}
+@media screen and (min-width: 1024px) {
   .decor__header__original__background {
     background: url("../img/panorama/pano original.jpg") no-repeat center top;
     position: relative;
     z-index: 30;
+    background-size: contain;
+  }
+}
+@media screen and (min-width: 1024px) and (min-width: 2500px) {
+  .decor__header__original__background {
+    height: 2300px !important;
     background-size: cover;
   }
-
+}
+@media screen and (min-width: 1024px) {
   .decor__header__tourbe__background {
     background: url("../img/panorama/pano tourbé.jpg") no-repeat center top;
     position: relative;
     z-index: 30;
+    background-size: contain;
+  }
+}
+@media screen and (min-width: 1024px) and (min-width: 2500px) {
+  .decor__header__tourbe__background {
+    height: 2300px !important;
     background-size: cover;
   }
-
+}
+@media screen and (min-width: 1024px) {
   .decor__header__barbade__background {
     background: url("../img/panorama/pano barbade.jpg") no-repeat center top;
     position: relative;
     z-index: 30;
+    background-size: contain;
+  }
+}
+@media screen and (min-width: 1024px) and (min-width: 2500px) {
+  .decor__header__barbade__background {
+    height: 2300px !important;
     background-size: cover;
   }
 }

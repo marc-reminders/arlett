@@ -1,6 +1,6 @@
 
 <!--    div video -->
-<header class="w-full  top-0 bg-center  decor__header__tourbe__background lg:h-[1000px] 2xl:h-[1600px]">
+<header class="w-full  top-0 bg-center  decor__header__tourbe__background lg:h-[1000px] 2xl:h-[1800px]">
     <div class="w-full decor__header__cocktail lg:pb-8">
         <!--  nav -->
         <?php include __DIR__ . '/../menu.php'; ?>
@@ -33,7 +33,7 @@
     <!--    div background -->
 
 </header>
-<main class="lg:mt-40">
+<main class="2xl:mt-40">
     <div class="block lg:hidden mb-14">
         <div>
             <img src="/img/panorama/pano%20tourbé.jpg" alt="">
