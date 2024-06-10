@@ -7,7 +7,7 @@
 
         <div class="container mx-auto flex flex-col justify-center mt-32 text-center">
 
-            <h1 class="text-9xl font-league uppercase"><br><span class="text-black stroke-effect">Old</span>Arlett Fashionned</h1>
+            <h1 class="text-9xl font-league uppercase"><br><span class="text-black stroke-effect">Old</span>Arlett Fashioned</h1>
         </div>
     </div>
 

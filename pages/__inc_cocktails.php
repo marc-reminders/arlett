@@ -59,7 +59,7 @@
                     <img class="card-img rounded-xl" src="/img/card-cocktail/OLD%20FASHIONNED%20SALON.jpg" data-aos="fade-down"
                          alt="">
                     <div class="card-text">
-                        <h3 class="card-title text-center text-2xl font-league uppercase" >Old Arlett Fashionned</h3>
+                        <h3 class="card-title text-center text-2xl font-league uppercase" >Old Arlett Fashioned</h3>
                     </div>
                 </div>
             </a>
