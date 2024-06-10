@@ -38,7 +38,7 @@
 <main class="lg:mt-40">
     <div class="block lg:hidden mb-14">
         <div>
-            <img src="/panorama/pano%20mizu.jpg" alt="">
+            <img src="/img/panorama/pano%20mizu.jpg" alt="">
         </div>
         <div class="container mx-auto flex flex-col justify-evenly mt-8 lg:mt-32 gap-6">
             <div class="flex flex-col justify-center gap-4  lg:ml-60">
@@ -63,13 +63,13 @@
     <article class="flex flex-col lg:flex-row justify-evenly font-avenir max-lg:gap-10 max-lg:items-center">
 
         <div class="basis-1/2" data-aos="fade-down">
-            <img  class="mx-auto" src="/image%2015.png" alt="" data-aos="fade-down">
+            <img  class="mx-auto" src="/img/image%2015.png" alt="" data-aos="fade-down">
         </div>
 
         <div class="flex flex-col justify-around text-justify px-10 gap-10 text-xl basis-1/2">
             <div class="flex flex-col lg:flex-row gap-8 items-center">
                 <div class="basis-1/5" data-aos="fade-down">
-                    <img src="/picto/tonneau.svg" alt="">
+                    <img src="/img/picto/tonneau.svg" alt="">
                 </div>
                 <div class="self-center basis-4/5" data-aos="fade-down">
                     <p>
@@ -79,7 +79,7 @@
             </div>
             <div class="flex flex-col lg:flex-row gap-8 items-center">
                 <div class="basis-1/5" data-aos="fade-down">
-                    <img src="/picto/nez.svg" alt="">
+                    <img src="/img/picto/nez.svg" alt="">
                 </div>
                 <div class="self-center basis-4/5" data-aos="fade-down">
                     <p>
@@ -89,7 +89,7 @@
             </div>
             <div class="flex flex-col lg:flex-row gap-8 items-center">
                 <div class="basis-1/5" data-aos="fade-down">
-                    <img src="/picto/bouche.svg" alt="">
+                    <img src="/img/picto/bouche.svg" alt="">
                 </div>
                 <div class="self-center basis-4/5" data-aos="fade-down">
                     <p>
@@ -99,7 +99,7 @@
             </div>
             <div class="flex flex-col lg:flex-row gap-8 items-center">
                 <div class="basis-1/5" data-aos="fade-down">
-                    <img src="/picto/verre.svg" alt="">
+                    <img src="/img/picto/verre.svg" alt="">
                 </div>
                 <div class="self-center basis-4/5" data-aos="fade-down">
                     <p>
@@ -114,7 +114,7 @@
 
         <div class="w-full lg:basis-2/3 self-center line_decor" data-aos="fade-down">
             <img class="mx-auto relative z-10"
-                 src="/background/MACARON_LOGO_2_SANS_BORDURE_Plan_de_travail_1%201.svg" alt="">
+                 src="/img/background/MACARON_LOGO_2_SANS_BORDURE_Plan_de_travail_1%201.svg" alt="">
         </div>
 
         <div class="lg:basis-1/3 self-center mt-8 lg:mt-0 " data-aos="fade-down">
