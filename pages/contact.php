@@ -40,7 +40,7 @@
 
             <span id="err" class="berthBold" style="color:red; display:none">Veuillez cochez la case suivante</span>
 
-            <div class="g-recaptcha" data-sitekey="6LfoddgjAAAAADvjf4AT6s-PU-sYHWjGrXK1kvSH"></div>
+            <div class="g-recaptcha" data-sitekey="6LcGWPUpAAAAACj5ohSIc3DF5YTfdG04J9WD73h2"></div>
 
             <div class="col-span-4 items-center self-center mx-auto">
                 <button type="submit" class="hover:shadow-form py-2 border border-customColor1 rounded-full text-customColor1 px-8 text-xl font-semibold outline-none ">Envoyer
