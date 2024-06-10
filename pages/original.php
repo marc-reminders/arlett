@@ -1,4 +1,34 @@
 
+<header class="w-full  top-0 bg-center  decor__header__original__background lg:h-[1000px] 2xl:h-[1600px]">
+    <div class="w-full decor__header__cocktail lg:pb-8">
+
+        <!--  nav -->
+        <?php include __DIR__ . '/../menu.php'; ?>
+
+
+        <div class="hidden lg:block">
+            <div class="container mx-auto flex flex-col justify-evenly mt-8 lg:mt-32 gap-6">
+                <div class="flex flex-col justify-center gap-4  lg:ml-60">
+                    <div class="basis-1/2 line uppercase px-8 lg:px-0" data-aos="fade-down">
+                        <h1 class="text-6xl font-league">SINGLE MALT
+                            <br>
+                            <span class="text-8xl">ORIGINAL</span>
+                        </h1>
+                    </div>
+                    <div class="basis-1/2 pt-16" data-aos="fade-down">
+                        <p class="max-w-[340px] text-justify font-avenir text-xl px-8 lg:px-0">Emblématique référence de
+                            la collection Arlett, ce whisky français offre une puissance aromatique riche et ronde.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--    div background -->
+
+</header>
+
 <main class="lg:mt-40">
     <div class="block lg:hidden mb-14">
         <div>

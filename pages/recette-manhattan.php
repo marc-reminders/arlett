@@ -1,5 +1,19 @@
 
 
+<!--    div video -->
+<header class="w-full  top-0 bg-center ">
+    <div class="w-full decor__header__cocktail ">
+        <!--  nav -->
+        <?php include __DIR__ . '/../menu.php'; ?>
+        <div class="container mx-auto flex flex-col justify-center mt-32 text-center">
+
+            <h1 class="text-9xl font-league uppercase"><br><span class="text-black stroke-effect">Arlett </span>Manhattan</h1>
+        </div>
+    </div>
+
+    <!--    div background -->
+
+</header>
 <main class="mt-36">
 
 

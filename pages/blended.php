@@ -1,5 +1,33 @@
 
 
+
+<!--    div video -->
+<header class="w-full  top-0 bg-center lg:h-[1244px] decor__header__blended__background decor__header__cocktail__background ">
+    <div class="w-full decor__header__cocktail ">
+        <!--  nav -->
+        <?php include __DIR__ . '/../menu.php'; ?>
+
+        <div class="flex flex-col lg:flex-row justify-evenly mt-8 lg:mt-32 gap-6">
+            <div class="flex flex-col justify-center gap-4 mx-auto lg:ml-80 ">
+                <div class="basis-1/2 line uppercase px-8 lg:px-0" data-aos="fade-down">
+                    <h1 class="text-8xl font-league ">whisky<br><span class="text-11xl">blended</span></h1>
+                </div>
+                <div class="basis-1/2 " data-aos="fade-down">
+                    <p class="max-w-[460px] text-justify font-avenir text-xl lg:text-3xl px-8 lg:px-0">Dernier né de la collection Arlett, ce
+                        whisky blended est idéal pour la création de vos cocktails ou pour une dégustation sur glace.
+                    </p>
+                </div>
+            </div>
+            <div class=" lg:hidden mx-auto max-lg:w-2/3">
+                <img class="mx-auto pb-2" src="/img/bottle/Calque%201%20(1).svg" alt="">
+            </div>
+
+        </div>
+    </div>
+
+    <!--    div background -->
+
+</header>
 <main class="mt-40">
     <article class="flex flex-col lg:flex-row justify-evenly font-avenir max-lg:gap-10 max-lg:items-center">
 

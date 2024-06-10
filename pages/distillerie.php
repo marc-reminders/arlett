@@ -1,3 +1,39 @@
+
+<header class="w-full  top-0 bg-center decor__disti__header mb-32">
+
+
+    <!--  nav -->
+    <?php include __DIR__ . '/../menu.php'; ?>
+
+    <div class="w-full container mx-auto lg:mb-14">
+
+        <h1 class="py-16 px-20 lg:mx-56 max-w-screen-xl text-5xl font-league uppercase"  data-aos="fade-down">Les <br><span class="stroke-effect text-black text-7xl">origines</span><br>la naissance du whisky arlett</h1>
+
+    </div>
+
+    <div class="flex flex-col lg:flex-row gap-16">
+        <div class="flex flex-col lg:flex-row basis-2/3 max-lg:justify-center max-lg:items-center max-lg:self-center ">
+            <div class="decor__disti__middle w-1/2"  data-aos="fade-down">
+
+            </div>
+            <div class="m-6 lg:m-0" data-aos="fade-down">
+                <img src="/img/Photo%20de%20famille%201.png" alt="">
+            </div>
+        </div>
+
+        <div class="basis-1/3 self-center items-center " data-aos="fade-down">
+            <p class="px-14 max-w-[500px] text-base xl:text-xl text-justify font-avenir ">La famille Tessendier excelle avec sérieux et
+                passion
+                dans l’art de la distillation depuis des
+                générations. Leur dernier projet, provenant directement de leurs tuyaux cuivrés est ce whisky aux
+                accents vintages, véritable hommage aux années 50 ainsi qu'à la mère de Jérôme et Lilian, amatrice de
+                whisky.
+            </p>
+        </div>
+    </div>
+
+
+</header>
 <main>
 
     <article class="flex flex-col lg:flex-row lg:gap-10 gap-6 justify-between  ">

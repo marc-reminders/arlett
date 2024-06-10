@@ -1,4 +1,23 @@
 
+<header class=" w-full h-[1280px] top-0 bg-center decor__header lg:mb-32">
+
+    <!--  nav -->
+    <?php include __DIR__ . '/../menu.php'; ?>
+
+    <div class="container mx-auto max-w-[230px]">
+        <div class="w-full ">
+            <img class="mx-auto" src="/img/Calque%201%20(1).png" alt="">
+        </div>
+
+    </div>
+    <!--    div video -->
+    <div class="container mx-auto relative z-10">
+        <img class="mx-auto lg:w-2/3" src="/img/background/COMPO-ARLETT-BARBADE-72dpi-scaled.jpg" alt="">
+    </div>
+
+
+</header>
+
 <main class="mx-auto">
     <section class="flex flex-col lg:flex-row">
         <div class="basis-1/2 self-start lg:self-center">
