@@ -27,7 +27,7 @@ body {
   z-index: 100;
   left: 0;
   top: 0;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.9);
   overflow-x: hidden;
   transition: 0.2s;
@@ -72,11 +72,10 @@ body {
   }
 }
 .decor__header__cocktail__background {
-  background: url("../img/background/FOND ARLETT BLENDED.jpg") no-repeat center top;
+  background: url("../img/background/background-cocktail.jpg") no-repeat center top;
   position: relative;
   z-index: 30;
   background-size: cover;
-  filter: brightness(70%);
 }
 
 @media screen and (min-width: 1200px) {
