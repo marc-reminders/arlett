@@ -27,7 +27,7 @@ body {
   z-index: 100;
   left: 0;
   top: 0;
-  background-color: rgb(0, 0, 0);
+  background-color: black;
   background-color: rgba(0, 0, 0, 0.9);
   overflow-x: hidden;
   transition: 0.2s;
@@ -386,15 +386,13 @@ body {
   background: url(../img/bottle/copper.png) bottom center no-repeat;
 }
 #bottles .collection .content {
-  height: 867px;
-  width: 410px;
   overflow: hidden;
-  padding: 50px;
 }
 #bottles .collection .content img {
-  width: 100%;
+  /*width: 100%;*/
   border-bottom-left-radius: 0.6rem;
   border-bottom-right-radius: 0.6rem;
+  margin: auto;
 }
 #bottles .collection .text-content {
   display: flex;

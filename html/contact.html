@@ -16,6 +16,7 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <link href="../dist/style.css" rel="stylesheet">
 
+    <script data-service="google-recaptcha" data-category="marketing" type="text/plain" async="async" defer="defer" data-cmplz-src='https://www.google.com/recaptcha/api.js?ver=1.0' id='captcha_js-js'></script>
     <title>Arlett - Whisky</title>
 </head>
 
@@ -175,6 +176,11 @@
                 <label for="remember" class=" ms-2 mb-3 text-base uppercase font-avenir text-white ">En envoyant ce
                     formulaire de contact, vous acceptez notre politique de confidentialité</label>
             </div>
+
+
+            <span id="err" class="berthBold" style="color:red; display:none">Veuillez cochez la case suivante</span>
+
+            <div class="g-recaptcha" data-sitekey="your_site_key"></div>
 
             <div class="col-span-4 items-center self-center mx-auto">
                 <button type="submit" class="hover:shadow-form py-2 border border-customColor1 rounded-full text-customColor1 px-8 text-xl font-semibold outline-none ">Envoyer

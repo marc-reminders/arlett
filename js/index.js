@@ -15,7 +15,6 @@ function menu(){
     document.getElementsByClassName( 'dropMenu' ).classList.toggle("show");
 }
 
-
 $('.dropMenu').click(function(){
     $(this).toggleClass('active').find('ul').toggleClass('dnone')
 })

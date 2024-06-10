@@ -9,15 +9,13 @@
   background: url(../img/bottle/copper.png) bottom center no-repeat;
 
   .content {
-    height: 867px;
-    width: 410px;
     overflow: hidden;
-    padding: 50px;
 
     img {
-      width: 100%;
+      /*width: 100%;*/
       border-bottom-left-radius: .6rem;
       border-bottom-right-radius: .6rem;
+      margin: auto;
     }
   }
 
