@@ -12,7 +12,7 @@
                     </svg>
 
                 </div>
-                <div class="ml-10 font-league uppercase text-3xl text-center">
+                <div class=" font-league uppercase text-3xl text-center">
                     <div id="bottles-collection-category">XXX</div>
                     <div id="bottles-collection-title">XXX</div>
                 </div>
