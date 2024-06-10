@@ -48,7 +48,7 @@
                     </span>
                 </div>
                 <!-- nav fullscreen -->
-                <div class="w-full hidden lg:block text-center ">
+                <div class="w-full hidden lg:block text-center relative z-50 ">
                     <ul class="items-center text-xl text-white self-center inline-flex w-full flex-col lg:flex-row  md:mt-0">
                         <li class="dropdown border-r-2 border-customColor1 px-3">
                             <div class="dropdown__btn uppercase hover:text-customColor1">Nos whiskys</div>
