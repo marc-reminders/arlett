@@ -80,7 +80,7 @@
             </div>
             <div class="flex flex-col lg:flex-row gap-8 items-center">
                 <div class="basis-1/5" data-aos="fade-down">
-                    <img src="/picto/bouche.svg" alt="">
+                    <img src="/img/picto/bouche.svg" alt="">
                 </div>
                 <div class="self-center basis-4/5" data-aos="fade-down">
                     <p>
