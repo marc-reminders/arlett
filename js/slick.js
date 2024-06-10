@@ -11,6 +11,7 @@ $('.slick-center').slick({
     centerMode: true,
     centerPadding: '60px',
     slidesToShow: 3,
+    variableWidth: true
     responsive: [
         {
             breakpoint: 768,
