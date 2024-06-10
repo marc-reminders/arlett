@@ -6,7 +6,7 @@
 /* npx tailwindcss -i ./css/style.css -o ./dist/style.css --watch */
 @font-face {
   font-family: "avenir", sans-serif;
-  src: url("./font/AvenirNextCondensed-Regular.ttf");
+  src: url("dist/font/AvenirNextCondensed-Regular.otf") format("opentype");
 }
 :root {
   --customColor1: #C06520;
