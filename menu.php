@@ -1,4 +1,7 @@
 
+<div class="w-full h-full p-0 m-0 block lg:hidden">
+    <img class=" w-full -scale-100" src="./img/background/FOOTER%201%20MAJ%201.svg" alt="">
+</div>
 <!--  nav -->
 <div class="w-full">
     <nav class=" container mx-auto ">
