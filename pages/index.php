@@ -1,6 +1,9 @@
 
-<header class=" w-full h-[1280px] top-0 bg-center decor__header lg:mb-32">
+<header class=" w-full lg:h-[1280px] top-0 bg-center decor__header lg:mb-32">
 
+    <div class="w-full h-full p-0 m-0 block lg:hidden">
+        <img class=" w-full -scale-100" src="./img/background/FOOTER%201%20MAJ%201.svg" alt="">
+    </div>
     <!--  nav -->
     <?php include __DIR__ . '/../menu.php'; ?>
 
@@ -11,19 +14,30 @@
 
     </div>
     <!--    div video -->
-    <div class="lg:container lg:mx-auto ">
-        <picture class="lg:mx-auto lg:w-1/3 my-8 relative z-10">
-            <source class="relative z-10" srcset="./img/test/Sans titre - 102.webp" type="image/webp"/>
-            <source class="relative z-10" srcset="./img/test/Sans titre - 10.2jpg (1).jpg" type="image/jpeg"/>
-            <img class="relative z-10 w-2/3 mx-auto" src="./img/test/Sans%20titre%20-%2010.2jpg%20(1).jpg"
+    <div class="lg:container lg:mx-auto hidden lg:block ">
+        <picture class="lg:mx-auto lg:w-1/3 my-8">
+            <source class="" srcset="./img/test/Sans titre - 102.webp" type="image/webp"/>
+            <source class="" srcset="./img/test/Sans titre - 10.2jpg (1).jpg" type="image/jpeg"/>
+            <img class=" w-full lg:w-2/3  lg:mx-auto min-[]: min-[2150px]:w-full"  src="./img/test/Sans%20titre%20-%2010.2jpg%20(1).jpg"
                  alt="Description de l'image"/>
         </picture>
         <!--        <img class="mx-auto lg:w-2/3" src="./img/background/COMPO-ARLETT-BARBADE-72dpi-scaled.jpg" alt="">-->
     </div>
 
+
 </header>
 
 <main class="mx-auto">
+    <div class="lg:container lg:mx-auto bloc lg:hidden my-20 ">
+        <picture class="my-8 ">
+            <source class="" srcset="./img/test/Sans titre - 102.webp" type="image/webp"/>
+            <source class="" srcset="./img/test/Sans titre - 10.2jpg (1).jpg" type="image/jpeg"/>
+            <img class="w-full "  src="./img/test/Sans%20titre%20-%2010.2jpg%20(1).jpg"
+                 alt="Description de l'image"/>
+        </picture>
+        <!--        <img class="mx-auto lg:w-2/3" src="./img/background/COMPO-ARLETT-BARBADE-72dpi-scaled.jpg" alt="">-->
+    </div>
+
     <section class="flex flex-col lg:flex-row">
         <div class="basis-1/2 self-start lg:self-center">
             <img src="/img/background/Group%203.svg" alt="">
