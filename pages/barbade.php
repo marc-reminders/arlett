@@ -44,7 +44,7 @@
                         <br>FINITION
                         <br>FÛT DE RHUM
                         <br>
-                        <span class="text-8xl">BARBABDE</span>
+                        <span class="text-8xl">BARBADE</span>
                     </h1>
                 </div>
                 <div class="basis-1/2 pt-16" data-aos="fade-down">
