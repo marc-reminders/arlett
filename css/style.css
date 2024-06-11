@@ -33,7 +33,7 @@ body {
   z-index: 100;
   left: 0;
   top: 0;
-  background-color: rgb(0, 0, 0);
+  background-color: black;
   background-color: rgba(0, 0, 0, 0.9);
   overflow-x: hidden;
   transition: 0.2s;
@@ -418,6 +418,7 @@ body {
   .theta-carousel-inner-container {
     left: auto !important;
     margin-top: 50px;
+    transform: none !important;
   }
 }
 #bottles .collection {
