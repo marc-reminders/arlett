@@ -26,7 +26,7 @@
     <!--    div background -->
 
 </header>
-<main class="2xl:mt-40">
+<main class="lg:mt-16 2xl:mt-40">
 
     <div class="block lg:hidden mb-14">
         <div>

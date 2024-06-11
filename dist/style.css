@@ -786,12 +786,12 @@ video {
   width: 50%;
 }
 
-.w-full{
-  width: 100%;
-}
-
 .w-2\/3{
   width: 66.666667%;
+}
+
+.w-full{
+  width: 100%;
 }
 
 .max-w-\[100px\]{
@@ -1349,7 +1349,7 @@ body {
 
 @media screen and (min-width: 1024px) {
   .decor__header__blended__background {
-    background: url("../img/background/Sans titre - 1 (1).jpg") no-repeat center top;
+    background: url("../img/background/Sans titre - 9 (3) (1).jpg") no-repeat center top;
     position: relative;
     z-index: 30;
     background-size: contain;
@@ -1956,6 +1956,10 @@ body {
 
   .lg\:mt-0{
     margin-top: 0px;
+  }
+
+  .lg\:mt-20{
+    margin-top: 5rem;
   }
 
   .lg\:mt-32{
