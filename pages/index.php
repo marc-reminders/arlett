@@ -4,17 +4,22 @@
     <!--  nav -->
     <?php include __DIR__ . '/../menu.php'; ?>
 
-    <div class="container mx-auto max-w-[230px]">
+    <div class="container mx-auto max-w-[230px] mb-16">
         <div class="w-full ">
             <img class="mx-auto" src="/img/Calque%201%20(1).png" alt="">
         </div>
 
     </div>
     <!--    div video -->
-    <div class="container mx-auto relative z-10">
-        <img class="mx-auto lg:w-2/3" src="/img/background/COMPO-ARLETT-BARBADE-72dpi-scaled.jpg" alt="">
+    <div class="lg:container lg:mx-auto ">
+        <picture class="lg:mx-auto lg:w-1/3 my-8 relative z-10">
+            <source class="relative z-10" srcset="./img/test/Sans titre - 102.webp" type="image/webp"/>
+            <source class="relative z-10" srcset="./img/test/Sans titre - 10.2jpg (1).jpg" type="image/jpeg"/>
+            <img class="relative z-10 w-2/3 mx-auto" src="./img/test/Sans%20titre%20-%2010.2jpg%20(1).jpg"
+                 alt="Description de l'image"/>
+        </picture>
+        <!--        <img class="mx-auto lg:w-2/3" src="./img/background/COMPO-ARLETT-BARBADE-72dpi-scaled.jpg" alt="">-->
     </div>
-
 
 </header>
 
