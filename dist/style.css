@@ -2,6 +2,8 @@
 
 @import url("https://fonts.googleapis.com/css2?family=League+Gothic&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
 /*
 ! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com
 */
@@ -659,8 +661,17 @@ video {
   margin-bottom: 10rem;
 }
 
+.my-8{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .mb-14{
   margin-bottom: 3.5rem;
+}
+
+.mb-16{
+  margin-bottom: 4rem;
 }
 
 .mb-3{
@@ -1121,7 +1132,7 @@ video {
 }
 
 .font-avenir{
-  font-family: avenir;
+  font-family: Mulish;
 }
 
 .font-league{
@@ -1774,6 +1785,42 @@ body {
   }
 }
 
+@media (min-width: 1024px){
+  .lg\:container{
+    width: 100%;
+  }
+
+  @media (min-width: 640px){
+    .lg\:container{
+      max-width: 640px;
+    }
+  }
+
+  @media (min-width: 768px){
+    .lg\:container{
+      max-width: 768px;
+    }
+  }
+
+  @media (min-width: 1024px){
+    .lg\:container{
+      max-width: 1024px;
+    }
+  }
+
+  @media (min-width: 1280px){
+    .lg\:container{
+      max-width: 1280px;
+    }
+  }
+
+  @media (min-width: 1536px){
+    .lg\:container{
+      max-width: 1536px;
+    }
+  }
+}
+
 .hover\:text-bottleMizu:hover{
   --tw-text-opacity: 1;
   color: rgb(89 89 88 / var(--tw-text-opacity));
@@ -1876,6 +1923,11 @@ body {
   .lg\:mx-56{
     margin-left: 14rem;
     margin-right: 14rem;
+  }
+
+  .lg\:mx-auto{
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .lg\:-mt-12{
