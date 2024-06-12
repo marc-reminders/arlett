@@ -1,9 +1,5 @@
 
 <header class=" w-full lg:h-[1280px] top-0 bg-center decor__header lg:mb-32">
-
-    <div class="w-full h-full p-0 m-0 block lg:hidden">
-        <img class=" w-full -scale-100" src="./img/background/FOOTER%201%20MAJ%201.svg" alt="">
-    </div>
     <!--  nav -->
     <?php include __DIR__ . '/../menu.php'; ?>
 
