@@ -719,10 +719,6 @@ video {
   margin-top: 3rem;
 }
 
-.mt-16{
-  margin-top: 4rem;
-}
-
 .mt-20{
   margin-top: 5rem;
 }
@@ -773,10 +769,6 @@ video {
 
 .h-full{
   height: 100%;
-}
-
-.h-screen{
-  height: 100vh;
 }
 
 .max-h-\[160px\]{
@@ -1110,6 +1102,10 @@ video {
   padding-left: 5%;
 }
 
+.pr-14{
+  padding-right: 3.5rem;
+}
+
 .pt-16{
   padding-top: 4rem;
 }
@@ -1120,10 +1116,6 @@ video {
 
 .pt-32{
   padding-top: 8rem;
-}
-
-.pr-14{
-  padding-right: 3.5rem;
 }
 
 .text-center{
@@ -1349,7 +1341,7 @@ body {
 
 @media screen and (min-width: 1024px) {
   .decor__header__blended__background {
-    background: url("../img/background/Sans titre - 9 (3) (1).jpg") no-repeat center top;
+    background: url("../img/background/FOND4_FINAL-01-min.png") no-repeat center top;
     position: relative;
     z-index: 30;
     background-size: contain;
@@ -1500,7 +1492,7 @@ body {
   height: 2px;
   background-color: #C06520;
   width: 100%;
-  top: -60px;
+  top: -52px;
   z-index: 2;
 }
 
@@ -1965,6 +1957,10 @@ body {
     margin-top: 0px;
   }
 
+  .lg\:mt-16{
+    margin-top: 4rem;
+  }
+
   .lg\:mt-20{
     margin-top: 5rem;
   }
@@ -1975,10 +1971,6 @@ body {
 
   .lg\:mt-96{
     margin-top: 24rem;
-  }
-
-  .lg\:mt-16{
-    margin-top: 4rem;
   }
 
   .lg\:block{
@@ -1995,10 +1987,6 @@ body {
 
   .lg\:h-\[1280px\]{
     height: 1280px;
-  }
-
-  .lg\:h-screen{
-    height: 100vh;
   }
 
   .lg\:max-h-\[250px\]{

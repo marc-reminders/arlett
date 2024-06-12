@@ -34,7 +34,7 @@
 
     <div class="block lg:hidden mb-14">
         <div>
-            <img src="../img/background/Sans%20titre%20-%201%20(1).jpg" alt="">
+            <img src="../img/background/FOND4_FINAL-01-min.png" alt="">
         </div>
         <div class="container mx-auto flex flex-col justify-evenly mt-8 lg:mt-32 gap-6">
             <div class="flex flex-col justify-center gap-4  lg:ml-60">
