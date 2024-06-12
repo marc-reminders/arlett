@@ -81,7 +81,7 @@
                 </div>
                 <div class="self-center basis-4/5" data-aos="fade-down">
                     <p>
-                        le nez très aromatique s'ouvre sur une note iodée et fumée de réglisse.
+                        Le nez très aromatique s'ouvre sur une note iodée et fumée de réglisse.
                     </p>
                 </div>
             </div>
@@ -91,7 +91,7 @@
                 </div>
                 <div class="self-center basis-4/5" data-aos="fade-down">
                     <p>
-                        l'attaque est nette et franche mais aérienne avec des notes cendrées.
+                        L'attaque est nette et franche mais aérienne avec des notes cendrées.
                     </p>
                 </div>
             </div>
@@ -101,7 +101,7 @@
                 </div>
                 <div class="self-center basis-4/5" data-aos="fade-down">
                     <p>
-                        idéal sur glace mais également en cocktails pour ceux qui aiment la tourbe.
+                        Idéal sur glace mais également en cocktails pour ceux qui aiment la tourbe.
                     </p>
                 </div>
             </div>

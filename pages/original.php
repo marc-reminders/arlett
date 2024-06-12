@@ -69,7 +69,7 @@
                 </div>
                 <div class="self-center basis-4/5" data-aos="fade-down">
                     <p>
-                        3 ans de vieillissement en fûts de chêne américain neufs et en fûts de bourbon. </p>
+                        3 à 5 ans de vieillissementde vieillissement en fûts de chêne américain neufs et en fûts de bourbon. </p>
                 </div>
             </div>
             <div class="flex flex-col lg:flex-row gap-8 items-center">

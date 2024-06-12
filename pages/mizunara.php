@@ -77,7 +77,7 @@
                 </div>
                 <div class="self-center basis-4/5" data-aos="fade-down">
                     <p>
-                        2 Ans de vieillissement en fûts de chêne américain neufs et en fûts de bourbon, suivi d'un
+                        2 ans de vieillissement en fûts de chêne américain neufs et en fûts de bourbon, suivi d'un
                         affinage en fûts de chêne japonais Mizunara pendant 1 an. </p>
                 </div>
             </div>
