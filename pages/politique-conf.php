@@ -2,6 +2,10 @@
 <!--    div video -->
 <header class="w-full lg:h top-0 bg-center decor__disti__header mb-32">
 
+    <div class="w-full h-full p-0 m-0 block lg:hidden">
+        <img class=" w-full -scale-100" src="./img/background/FOOTER%201%20MAJ%201.svg" alt="">
+    </div>
+
     <!--  nav -->
     <?php include __DIR__ . '/../menu.php'; ?>
     <div class=" mt-32 lg:mt-96 w-full container mx-auto lg:mb-14 flex flex-row justify-start items-center self-center">

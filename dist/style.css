@@ -594,32 +594,12 @@ video {
   }
 }
 
-.fixed{
-  position: fixed;
-}
-
 .relative{
   position: relative;
 }
 
 .top-0{
   top: 0px;
-}
-
-.bottom-0{
-  bottom: 0px;
-}
-
-.-bottom-\[20px\]{
-  bottom: -20px;
-}
-
-.bottom-\[-20px\]{
-  bottom: -20px;
-}
-
-.bottom-\[-100px\]{
-  bottom: -100px;
 }
 
 .z-10{
@@ -1028,11 +1008,6 @@ video {
 .object-contain{
   -o-object-fit: contain;
      object-fit: contain;
-}
-
-.object-cover{
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 .p-0{

@@ -4,6 +4,10 @@
 <!--    div video -->
 <header class="w-full  top-0 bg-center decor__header__blended__background lg:h-[1000px] 2xl:h-[1400px]">
     <div class="w-full decor__header__cocktail ">
+
+        <div class="w-full h-full p-0 m-0 block lg:hidden">
+            <img class=" w-full -scale-100" src="./img/background/FOOTER%201%20MAJ%201.svg" alt="">
+        </div>
         <!--  nav -->
         <?php include __DIR__ . '/../menu.php'; ?>
 
