@@ -137,7 +137,7 @@
         </section>
 
         <section class="w-full grid sm:grid-cols-2 lg:grid-cols-4 md:grid-rows-1 mx-auto gap-2 mt-10 ">
-            <div class="col-span-2 sm:col-span-1  cursor-pointer ">
+            <a href="?page=recette-GingerAle" class="col-span-2 sm:col-span-1  cursor-pointer ">
                 <div class="card ">
 
                     <img class="card-img" src="/img/cocktail/ARLETT%20ORIGINAL%20-%20COCKTAIL%20WHISKY%20ALE%2004.jpg"
@@ -149,8 +149,8 @@
 
                     </div>
                 </div>
-            </div>
-            <div class="col-span-2 sm:col-span-1 cursor-pointer ">
+            </a>
+            <a href="?page=recette-lady" class="col-span-2 sm:col-span-1 cursor-pointer ">
                 <div class="card ">
                     <img class="card-img" src="/img/cocktail/ARLETT%20TOURBE%20-%20COCKTAIL%20LADY%20ARLETT%2002.jpg"
                          alt="">
@@ -159,8 +159,8 @@
 
                     </div>
                 </div>
-            </div>
-            <div class="col-span-2  cursor-pointer ">
+            </a>
+            <a href="?page=recette-sour" class="col-span-2  cursor-pointer ">
                 <div class="card ">
                     <img class="card-img " src="/img/cocktail/ARLETT%20MIZUNARA%20-%20COCKTAIL%20ARLETT%20SOUR.jpg"
                          alt="">
@@ -169,7 +169,7 @@
 
                     </div>
                 </div>
-            </div>
+            </a>
         </section>
 
     </section>

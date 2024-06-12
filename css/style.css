@@ -77,13 +77,6 @@ body {
     left: 35px;
   }
 }
-.decor__header__cocktail__background {
-  background: url("../img/background/Sans titre - 5 (2).jpg") no-repeat center top;
-  position: relative;
-  z-index: 30;
-  background-size: cover;
-}
-
 @media screen and (min-width: 1024px) {
   .decor__header__blended__background {
     background: url("../img/background/Sans titre - 9 (3) (1).jpg") no-repeat center top;
@@ -96,6 +89,14 @@ body {
   .decor__header__blended__background {
     background-size: cover;
     height: 2000px !important;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .decor__header__cocktail__background {
+    background: url("../img/background/Sans titre - 5 (2).jpg") no-repeat center top;
+    position: relative;
+    z-index: 30;
+    background-size: cover;
   }
 }
 @media screen and (min-width: 1024px) {

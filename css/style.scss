@@ -98,13 +98,7 @@ body {
 }
 
 
-.decor__header__cocktail__background {
-  background: url("../img/background/Sans titre - 5 (2).jpg") no-repeat center top;
-  position: relative;
-  z-index: 30;
-  background-size: cover;
 
-}
 
 @media screen and (min-width: 1024px){
 
@@ -117,6 +111,13 @@ body {
       background-size: cover;
       height:2000px!important;
     }
+  }
+  .decor__header__cocktail__background {
+    background: url("../img/background/Sans titre - 5 (2).jpg") no-repeat center top;
+    position: relative;
+    z-index: 30;
+    background-size: cover;
+
   }
 }
 @media screen and (min-width: 1024px){

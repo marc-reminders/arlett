@@ -1,6 +1,6 @@
 
 <!--    div video -->
-<header class="w-full  top-0 bg-center  lg:decor__header__cocktail__background">
+<header class="w-full  top-0 bg-center  decor__header__cocktail__background">
     <div class="w-full decor__header__cocktail lg:h-screen">
         <div class="w-full h-full p-0 m-0 block lg:hidden">
             <img class=" w-full -scale-100" src="./img/background/FOOTER%201%20MAJ%201.svg" alt="">
@@ -23,7 +23,7 @@
     <!--    div background -->
 
 </header>
-<main class="px-6 mt-16">
+<main class="lg:px-6 mt-16">
     <div class="block lg:hidden mb-14">
         <div>
             <img src="../img/background/Sans titre - 5 (2).jpg" alt="">
