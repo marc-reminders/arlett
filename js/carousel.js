@@ -47,6 +47,7 @@ $('.swiper-wrapper').theta_carousel( {
             y: 33
         }
     },
+    mousewheelEnabled: false,
     rotation: true,
     rotationBezierPoints: {
         p1: {
