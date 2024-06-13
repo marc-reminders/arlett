@@ -24,8 +24,8 @@
             </div>
         </div>
 
-        <div class="basis-1/3 self-center items-center " data-aos="fade-down">
-            <p class="px-14 max-w-[500px] text-base xl:text-xl text-justify font-avenir ">La famille Tessendier excelle avec sérieux et
+        <div class="pr-14 basis-1/3 self-center items-center " data-aos="fade-down">
+            <p class=" max-w-[460px] text-base xl:text-xl text-justify font-avenir ">La famille Tessendier excelle avec sérieux et
                 passion
                 dans l’art de la distillation depuis des
                 générations. Leur dernier projet, provenant directement de leurs tuyaux cuivrés est ce whisky aux

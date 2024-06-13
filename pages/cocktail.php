@@ -1,7 +1,7 @@
 
 <!--    div video -->
 <header class="w-full  top-0 bg-center  decor__header__cocktail__background">
-    <div class="w-full decor__header__cocktail lg:h-screen">
+    <div class="w-full decor__header__cocktail lg:h-[1000px]">
         <div class="w-full h-full p-0 m-0 block lg:hidden">
             <img class=" w-full -scale-100" src="./img/background/FOOTER%201%20MAJ%201.svg" alt="">
         </div>
@@ -9,14 +9,19 @@
         <!--  nav -->
         <?php include __DIR__ . '/../menu.php'; ?>
 
-        <div class="  lg:mt-32 w-full container mx-auto lg:mb-14 flex flex-row justify-start items-center self-center">
+        <div class="hidden lg:block">
+            <div class="  lg:mt-32 w-full container mx-auto lg:mb-14 flex flex-row justify-start items-center self-center">
 
-            <div class=" mx-auto ">
-                <h1 class=" text-white text-9xl text-center sm:text-justify font-league uppercase">NOS cocktails SIGNATURES
-                </h1>
+                <div class=" mx-auto ">
+                    <h2 class=" text-white text-9xl text-center sm:text-justify font-league uppercase">NOS cocktails SIGNATURES
+
+                    </h2>
+                </div>
+
             </div>
-
         </div>
+
+
 
     </div>
 
@@ -24,9 +29,24 @@
 
 </header>
 <main class="lg:px-6 mt-16">
-    <div class="block lg:hidden mb-14">
+    <div class="block lg:hidden mb-32">
         <div>
             <img src="../img/background/Sans titre - 5 (2).jpg" alt="">
+        </div>
+
+        <div class="container mx-auto flex flex-col justify-evenly mt-8 lg:mt-32 gap-6">
+            <div class="flex flex-col justify-center gap-4  lg:ml-60">
+                <div class=" mt-24 lg:mt-32 w-full container mx-auto lg:mb-14 flex flex-row justify-start items-center self-center">
+
+                    <div class=" mx-auto ">
+                        <h2 class=" text-white text-9xl text-center sm:text-justify font-league uppercase">NOS cocktails SIGNATURES
+
+                        </h2>
+                    </div>
+
+                </div>
+            </div>
+
         </div>
     </div>
 

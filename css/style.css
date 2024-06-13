@@ -79,7 +79,7 @@ body {
 }
 @media screen and (min-width: 1024px) {
   .decor__header__blended__background {
-    background: url("../img/background/Sans titre - 9 (3) (1).jpg") no-repeat center top;
+    background: url("../img/background/FOND4_FINAL-01-min.png") no-repeat center top;
     position: relative;
     z-index: 30;
     background-size: contain;
@@ -220,7 +220,7 @@ body {
   height: 2px;
   background-color: #C06520;
   width: 100%;
-  top: -60px;
+  top: -52px;
   z-index: 2;
 }
 

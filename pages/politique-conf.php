@@ -17,7 +17,7 @@
 
         <div class=" basis-2/3 " data-aos="fade-down">
             <h2 class=" line_decor__contact pt-32 text-black stroke-effect text-9xl text-justify font-league uppercase">
-                poolitique de confidentialité
+                politique de confidentialité
             </h2>
         </div>
 
