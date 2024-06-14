@@ -37,8 +37,10 @@ document.addEventListener("scroll", (event) => {
     const poseY = window.scrollY
 
     if (poseY > 0){
+        document.querySelector("#position").classList.add ("fixed")
         document.querySelector("#position").classList.add ("bg-black")
     } else{
+        document.querySelector("#position").classList.remove ("fixed")
         document.querySelector("#position").classList.remove ("bg-black")
     }
 })
