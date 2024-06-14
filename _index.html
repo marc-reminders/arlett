@@ -27,143 +27,128 @@
 <body class=" font-league bg-black ">
 
 
+<header class=" w-full bg-center decor__header__bg lg:mb-32">
 
+    <div class="min-h-[160px] lg:h-[1280px] 2xl:h-[1600px] decor__header">
 
-<header class=" w-full top-0 bg-center lg:h-[1280px] decor__header lg:mb-32">
+        <div id="position" class="w-full fixed z-50 top-0">
 
-    <div class="w-full h-full p-0 m-0 block lg:hidden">
-        <img class=" w-full -scale-100" src="./img/background/FOOTER%201%20MAJ%201.svg" alt="">
-    </div>
+            <div class="w-full h-full p-0 m-0 block lg:hidden">
+                <img class=" w-full -scale-100" src="./img/background/FOOTER%201%20MAJ%201.svg" alt="">
+            </div>
 
+            <nav class=" container mx-auto ">
+                <div class=" py-8 px-8 lg:px-0 max-w-screen-xl flex flex-col items-center justify-start mx-auto lg:flex-row ">
+                    <div class="w-full flex justify-between items-center">
+                        <a href="index.html" class="mr-6">
+                            <img class="" src="./img/LOGO%20ARLETTE%201%201%20(1).png" alt="logo">
+                        </a>
 
-    <!--  nav -->
-    <div class="w-full">
-        <nav class=" container mx-auto ">
-            <div class=" py-8 px-8 lg:px-0 max-w-screen-xl flex flex-col items-center justify-start mx-auto lg:flex-row ">
-                <div class="w-full flex justify-between items-center">
-                    <a href="index.html" class="mr-6">
-                        <img class="" src="./img/LOGO%20ARLETTE%201%201%20(1).png" alt="logo">
-                    </a>
+                        <!-- Mobile menu button -->
+                        <!-- The overlay -->
+                        <div class="lg:hidden ">
+                            <div id="myNav" class="overlay">
 
-                    <!-- Mobile menu button -->
-                    <!-- The overlay -->
-                    <div class="lg:hidden ">
-                        <div id="myNav" class="overlay">
+                                <!-- Button to close the overlay navigation -->
+                                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
-                            <!-- Button to close the overlay navigation -->
-                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-
-                            <!-- Overlay content -->
-                            <div class="overlay-content ">
-                                <div class="dropMenu text-4xl uppercase hover:text-customColor1">Nos whiskys
-                                    <ul class="dropList dnone  ">
-                                        <li class="uppercase ">Single malt</li>
-                                        <li><a class="text-sm pl-3 hover:text-bottleOri normal-case"
-                                               href="./html/original.html">Original</a></li>
-                                        <li><a class="text-sm pl-3 hover:text-bottleMizu normal-case"
-                                               href="./html/mizunara.html">Mizunara</a></li>
-                                        <li><a class="text-sm pl-3 hover:text-bottleTourb normal-case"
-                                               href="./html/tourbe.html">Tourbé</a></li>
-                                        <li><a class="text-sm pl-3 hover:text-bottlebarb normal-case"
-                                               href="./html/barbade.html">Barbade</a></li>
-                                        <li><a class=" pl-3 hover:text-customColor1"
-                                               href="./html/blended.html">Blended</a>
-                                        </li>
-                                    </ul>
-
-                                </div>
-                                <a class="uppercase hover:text-customColor1" href="./html/distillerie.html">La
-                                    Distillerie Tessendier</a>
-                                <a class="uppercase hover:text-customColor1" href="./html/cocktail.html">Cocktails</a>
-                                <a class="uppercase hover:text-customColor1" href="./html/contact.html">Contact</a>
-                                <a class="hover:text-customColor1" target="_blank"
-                                   href="https://www.vinatis.com/maisons/arlett-whisky"><i
-                                        class="fa-solid fa-bag-shopping"></i></a>
-                            </div>
-
-
-                        </div>
-                        <span onclick="openNav()"><i class="fa-solid fa-bars fa-2xl text-customColor1"></i>
-                    </span>
-                    </div>
-                    <!-- nav fullscreen -->
-                    <div class="w-full hidden lg:block text-center relative z-50 ">
-                        <ul class="items-center text-xl text-white self-center inline-flex w-full flex-col lg:flex-row  md:mt-0">
-                            <li class="dropdown border-r-2 border-customColor1 px-3">
-                                <div class="dropdown__btn uppercase hover:text-customColor1">Nos whiskys</div>
-                                <div class="dropdown__content text-start relative z-50 ">
-                                    <div class="pl-2 text-start drop-menu dropMenu cursor-pointer"
-                                    >Single Malt
-                                        <ul class="dropList dnone">
-                                            <li class=" "><a class="text-lg pl-3 hover:text-bottleOri"
-                                                             href="./html/original.html">Original</a></li>
-                                            <li class=" "><a class="text-lg pl-3 hover:text-bottleMizu"
-                                                             href="./html/mizunara.html">Mizunara</a></li>
-                                            <li class=" "><a class="text-lg pl-3 hover:text-bottleTourb"
-                                                             href="./html/tourbe.html">Tourbé</a></li>
-                                            <li class=" "><a class="text-lg pl-3 hover:text-bottlebarb"
-                                                             href="./html/barbade.html">Barbade</a></li>
+                                <!-- Overlay content -->
+                                <div class="overlay-content ">
+                                    <div class="dropMenu text-4xl uppercase hover:text-customColor1">Nos whiskys
+                                        <ul class="dropList dnone  ">
+                                            <li class="uppercase ">Single malt</li>
+                                            <li><a class="text-sm pl-3 hover:text-bottleOri normal-case"
+                                                   href="./html/original.html">Original</a></li>
+                                            <li><a class="text-sm pl-3 hover:text-bottleMizu normal-case"
+                                                   href="./html/mizunara.html">Mizunara</a></li>
+                                            <li><a class="text-sm pl-3 hover:text-bottleTourb normal-case"
+                                                   href="./html/tourbe.html">Tourbé</a></li>
+                                            <li><a class="text-sm pl-3 hover:text-bottlebarb normal-case"
+                                                   href="./html/barbade.html">Barbade</a></li>
+                                            <li><a class=" pl-3 hover:text-customColor1"
+                                                   href="./html/blended.html">Blended</a>
+                                            </li>
                                         </ul>
+
                                     </div>
-                                    <a class="text-start  hover:text-customColor1 pl-2"
-                                       href="./html/blended.html">Blended</a>
+                                    <a class="uppercase hover:text-customColor1" href="./html/distillerie.html">La
+                                        Distillerie Tessendier</a>
+                                    <a class="uppercase hover:text-customColor1" href="./html/cocktail.html">Cocktails</a>
+                                    <a class="uppercase hover:text-customColor1" href="./html/contact.html">Contact</a>
+                                    <a class="hover:text-customColor1" target="_blank"
+                                       href="https://www.vinatis.com/maisons/arlett-whisky"><i
+                                            class="fa-solid fa-bag-shopping"></i></a>
                                 </div>
-                            </li>
-                            <li class="inline-block border-r-2 border-customColor1 px-3 uppercase">
-                                <a class="hover:text-customColor1"
-                                   href="./html/distillerie.html">La Distillerie Tessendier</a>
-                            </li>
-                            <li class="inline-block border-r-2 border-customColor1 px-3 uppercase">
-                                <a class="hover:text-customColor1"
-                                   href="./html/cocktail.html">Cocktails</a>
-                            </li>
-                            <li class="inline-block border-r-2 border-customColor1 px-3 uppercase">
-                                <a class="hover:text-customColor1"
-                                   href="./html/contact.html">Contact</a>
-                            </li>
-                            <li class="inline-block px-3 uppercase">
-                                <a class="hover:text-customColor1 " target="_blank"
-                                   href="https://www.vinatis.com/maisons/arlett-whisky"><i
-                                        class="fa-solid fa-bag-shopping"></i>
-                                </a>
-                            </li>
-                        </ul>
+
+
+                            </div>
+                            <span onclick="openNav()"><i class="fa-solid fa-bars fa-2xl text-customColor1"></i>
+                    </span>
+                        </div>
+                        <!-- nav fullscreen -->
+                        <div class="w-full hidden lg:block text-center relative z-50 ">
+                            <ul class="items-center text-xl text-white self-center inline-flex w-full flex-col lg:flex-row  md:mt-0">
+                                <li class="dropdown border-r-2 border-customColor1 px-3">
+                                    <div class="dropdown__btn uppercase hover:text-customColor1">Nos whiskys</div>
+                                    <div class="dropdown__content text-start relative z-50 ">
+                                        <div class="pl-2 text-start drop-menu dropMenu cursor-pointer"
+                                        >Single Malt
+                                            <ul class="dropList dnone">
+                                                <li class=" "><a class="text-lg pl-3 hover:text-bottleOri"
+                                                                 href="./html/original.html">Original</a></li>
+                                                <li class=" "><a class="text-lg pl-3 hover:text-bottleMizu"
+                                                                 href="./html/mizunara.html">Mizunara</a></li>
+                                                <li class=" "><a class="text-lg pl-3 hover:text-bottleTourb"
+                                                                 href="./html/tourbe.html">Tourbé</a></li>
+                                                <li class=" "><a class="text-lg pl-3 hover:text-bottlebarb"
+                                                                 href="./html/barbade.html">Barbade</a></li>
+                                            </ul>
+                                        </div>
+                                        <a class="text-start  hover:text-customColor1 pl-2"
+                                           href="./html/blended.html">Blended</a>
+                                    </div>
+                                </li>
+                                <li class="inline-block border-r-2 border-customColor1 px-3 uppercase">
+                                    <a class="hover:text-customColor1"
+                                       href="./html/distillerie.html">La Distillerie Tessendier</a>
+                                </li>
+                                <li class="inline-block border-r-2 border-customColor1 px-3 uppercase">
+                                    <a class="hover:text-customColor1"
+                                       href="./html/cocktail.html">Cocktails</a>
+                                </li>
+                                <li class="inline-block border-r-2 border-customColor1 px-3 uppercase">
+                                    <a class="hover:text-customColor1"
+                                       href="./html/contact.html">Contact</a>
+                                </li>
+                                <li class="inline-block px-3 uppercase">
+                                    <a class="hover:text-customColor1 " target="_blank"
+                                       href="https://www.vinatis.com/maisons/arlett-whisky"><i
+                                            class="fa-solid fa-bag-shopping"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </nav>
-    </div>
+            </nav>
+        </div>
 
-    <div class="container mx-auto max-w-[230px] mb-16">
-        <div class="w-full ">
-            <img class="mx-auto" src="./img/Calque%201%20(1).png" alt="">
+        <div class="container mx-auto max-w-[230px] mb-16 hidden sm:block">
+            <div class="w-full lg:pt-[200px] pt-[150px] ">
+                <img class="mx-auto" src="./img/Calque%201%20(1).png" alt="">
+            </div>
+
         </div>
 
     </div>
-    <!--    div video -->
-    <div class="lg:container lg:mx-auto hidden lg:block ">
-        <picture class="lg:mx-auto lg:w-1/3 my-8">
-            <source class="" srcset="./img/test/Sans titre - 102.webp" type="image/webp"/>
-            <source class="" srcset="./img/test/Sans titre - 10.2jpg (1).jpg" type="image/jpeg"/>
-            <img class=" w-full lg:w-2/3  lg:mx-auto min-[]: min-[2150px]:w-full"  src="./img/test/Sans%20titre%20-%2010.2jpg%20(1).jpg"
-                 alt="Description de l'image"/>
-        </picture>
-        <!--        <img class="mx-auto lg:w-2/3" src="./img/background/COMPO-ARLETT-BARBADE-72dpi-scaled.jpg" alt="">-->
-    </div>
-
 
 </header>
 
 
 <main class="mx-auto">
-    <div class="lg:container lg:mx-auto bloc lg:hidden my-20 ">
-        <picture class="my-8 ">
-            <source class="" srcset="./img/test/Sans titre - 102.webp" type="image/webp"/>
-            <source class="" srcset="./img/test/Sans titre - 10.2jpg (1).jpg" type="image/jpeg"/>
-            <img class="w-full "  src="./img/test/Sans%20titre%20-%2010.2jpg%20(1).jpg"
-                 alt="Description de l'image"/>
-        </picture>
-        <!--        <img class="mx-auto lg:w-2/3" src="./img/background/COMPO-ARLETT-BARBADE-72dpi-scaled.jpg" alt="">-->
+
+    <div class="lg:container lg:mx-auto block lg:hidden my-20 ">
+        <img class="mx-auto lg:w-2/3" src="./img/background/KEY%20VISUAL%20-%20ARLETT%20BLENDED%20(1).jpg" alt="">
     </div>
 
 

@@ -1,4 +1,3 @@
-
 AOS.init();
 
 /* Open when someone clicks on the span element */
@@ -11,11 +10,11 @@ function closeNav() {
     document.getElementById("myNav").style.width = "0%";
 }
 
-function menu(){
-    document.getElementsByClassName( 'dropMenu' ).classList.toggle("show");
+function menu() {
+    document.getElementsByClassName('dropMenu').classList.toggle("show");
 }
 
-$('.dropMenu').click(function(){
+$('.dropMenu').click(function () {
     $(this).toggleClass('active').find('ul').toggleClass('dnone')
 })
 /*
@@ -32,3 +31,14 @@ menu.addEventListener( 'click', () => {
     }
 } );
 */
+
+
+document.addEventListener("scroll", (event) => {
+    const poseY = window.scrollY
+
+    if (poseY > 0){
+        document.querySelector("#position").classList.add ("bg-black")
+    } else{
+        document.querySelector("#position").classList.remove ("bg-black")
+    }
+})

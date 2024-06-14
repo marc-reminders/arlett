@@ -1,6 +1,11 @@
 
 <!--  nav -->
-<div class="w-full">
+<div id="position" class="w-full fixed z-50 top-0">
+
+    <div class="w-full h-full p-0 m-0 block lg:hidden">
+        <img class=" w-full -scale-100" src="./img/background/FOOTER%201%20MAJ%201.svg" alt="">
+    </div>
+
     <nav class=" container mx-auto ">
         <div class=" py-8 px-8 lg:px-0 max-w-screen-xl flex flex-col items-center justify-start mx-auto lg:flex-row ">
             <div class="w-full flex justify-between items-center">

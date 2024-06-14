@@ -594,6 +594,10 @@ video {
   }
 }
 
+.fixed{
+  position: fixed;
+}
+
 .relative{
   position: relative;
 }
@@ -664,11 +668,6 @@ video {
 .my-40{
   margin-top: 10rem;
   margin-bottom: 10rem;
-}
-
-.my-8{
-  margin-top: 2rem;
-  margin-bottom: 2rem;
 }
 
 .mb-14{
@@ -773,6 +772,10 @@ video {
 
 .max-h-\[160px\]{
   max-height: 160px;
+}
+
+.min-h-\[160px\]{
+  min-height: 160px;
 }
 
 .w-1\/2{
@@ -1118,6 +1121,10 @@ video {
   padding-top: 8rem;
 }
 
+.pt-\[150px\]{
+  padding-top: 150px;
+}
+
 .text-center{
   text-align: center;
 }
@@ -1439,6 +1446,13 @@ body {
     position: relative;
     z-index: 40;
     background-size: auto;
+  }
+
+  .decor__header__bg {
+    background: url("../img/background/KEY VISUAL - ARLETT BLENDED (1).jpg") no-repeat top center;
+    position: relative;
+    z-index: 40;
+    background-size: cover;
   }
 
   .decor__home__middle__top__right {
@@ -1891,6 +1905,10 @@ body {
     grid-column: span 1 / span 1;
   }
 
+  .sm\:block{
+    display: block;
+  }
+
   .sm\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1993,10 +2011,6 @@ body {
     max-height: 250px;
   }
 
-  .lg\:w-1\/3{
-    width: 33.333333%;
-  }
-
   .lg\:w-2\/3{
     width: 66.666667%;
   }
@@ -2050,6 +2064,10 @@ body {
   .lg\:pb-8{
     padding-bottom: 2rem;
   }
+
+  .lg\:pt-\[200px\]{
+    padding-top: 200px;
+  }
 }
 
 @media (min-width: 1280px){
@@ -2068,14 +2086,16 @@ body {
     height: 1400px;
   }
 
+  .\32xl\:h-\[1600px\]{
+    height: 1600px;
+  }
+
   .\32xl\:h-\[1800px\]{
     height: 1800px;
   }
-}
 
-@media (min-width: 2150px){
-  .min-\[2150px\]\:w-full{
-    width: 100%;
+  .\32xl\:h-\[1200px\]{
+    height: 1200px;
   }
 }
 

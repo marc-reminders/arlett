@@ -170,6 +170,13 @@ body {
     background-size: auto;
   }
 
+  .decor__header__bg {
+    background: url("../img/background/KEY VISUAL - ARLETT BLENDED (1).jpg") no-repeat top center;
+    position: relative;
+    z-index: 40;
+    background-size: cover;
+  }
+
   .decor__home__middle__top__right {
     background: url("../img/background/MIDDLE DROITE 1 MAJ 1 (4).svg") no-repeat top right;
   }
