@@ -47,6 +47,10 @@
                             <a class="hover:text-customColor1" target="_blank"
                                href="https://www.vinatis.com/maisons/arlett-whisky"><i
                                     class="fa-solid fa-bag-shopping"></i></a>
+
+                            <a href="" class="d-block mx-auto" id="flag-lang-mobile">
+                                <img src="./img/flag-EN.png" alt="" id="">
+                            </a>
                         </div>
                     </div>
                     <span onclick="openNav()"><i class="fa-solid fa-bars fa-2xl text-customColor1"></i>
@@ -98,4 +102,7 @@
             </div>
         </div>
     </nav>
+    <a href="" id="flag-lang">
+        <img src="./img/flag-EN.png" alt="" id="">
+    </a>
 </div>
