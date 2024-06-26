@@ -2,5 +2,13 @@
   li {
     transition: 0.5s ease;
     cursor: pointer;
+    &:hover {
+      color: var(--customColor1);
+    }
+  }
+  a {
+    &:hover {
+      color: var(--customColor1)
+    }
   }
 }
