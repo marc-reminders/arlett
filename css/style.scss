@@ -9,16 +9,14 @@
 
 @font-face {
   font-family: "avenir", sans-serif;
-  src:
-          url("dist/font/AvenirNextCondensed-Regular.otf") format("opentype"),
-          url("dist/font/AvenirNextCondensed-Regular.ttf") format("truetype")
+  src: url("dist/font/AvenirNextCondensed-Regular.otf") format("opentype"),
+  url("dist/font/AvenirNextCondensed-Regular.ttf") format("truetype")
 ;
 }
 
 @font-face {
   font-family: "avenir", sans-serif;
-  src:
-          url("dist/font/AvenirNextCondensed-Bold.otf") format("opentype")
+  src: url("dist/font/AvenirNextCondensed-Bold.otf") format("opentype")
 ;
   font-weight: bold;
 }
@@ -34,7 +32,6 @@ body {
 .dnone {
   display: none;
 }
-
 
 
 // hamburger //
@@ -98,18 +95,16 @@ body {
 }
 
 
-
-
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
 
   .decor__header__blended__background {
     background: url("../img/background/FOND4_FINAL-01-min.png") no-repeat center top;
     position: relative;
     z-index: 30;
     background-size: contain;
-    @media  screen and (min-width: 2500px) {
+    @media screen and (min-width: 2500px) {
       background-size: cover;
-      height:2000px!important;
+      height: 2000px !important;
     }
   }
   .decor__header__cocktail__background {
@@ -120,50 +115,23 @@ body {
 
   }
 }
-@media screen and (min-width: 1024px){
-  .decor__header__mizu__background {
-    background: url("../img/panorama/pano mizu.jpg") no-repeat center top;
-    position: relative;
-    z-index: 30;
-    background-size: contain;
-    @media  screen and (min-width: 1400px) {
-      height: 2300px!important;
-      background-size: cover;
-    }
-  }
-  .decor__header__original__background {
-    background: url("../img/panorama/pano original.jpg") no-repeat center top;
-    position: relative;
-    z-index: 30;
-    background-size: contain;
-    @media  screen and (min-width: 2500px) {
-      height: 2300px!important;
-      background-size: cover;
-    }
-  }
-  .decor__header__tourbe__background {
-    background: url("../img/panorama/pano tourbé.jpg") no-repeat center top;
-    position: relative;
-    z-index: 30;
-    background-size: contain;
-    @media  screen and (min-width: 2500px) {
-      height: 2300px!important;
-      background-size: cover;
 
-    }
-  }
-  .decor__header__barbade__background {
-    background: url("../img/panorama/pano barbade.jpg") no-repeat center top;
+@media screen and (min-width: 1024px) {
+  .décor__header__bg__prod {
+    background: url("../img/newbackground/Arlett image generique ss plaque ni ressort.jpg") no-repeat center top;
     position: relative;
     z-index: 30;
-    background-size: contain;
-    @media  screen and (min-width: 2500px) {
-      height: 2300px!important;
-      background-size: cover;
-    }
+    background-size: cover;
+
   }
 }
+.décor__header__bg__prod__mobile {
+  background: url("../img/newbackground/Arlett image generique ss plaque ni ressort.jpg") no-repeat center top;
+  position: relative;
+  z-index: 30;
+  background-size: cover;
 
+}
 
 // decor elements //
 @media screen and (min-width: 1200px) {
@@ -181,7 +149,7 @@ body {
     background-size: auto;
   }
   .decor__header__bg {
-    background: url("../img/background/KEY VISUAL - ARLETT BLENDED (1).jpg") no-repeat top center;
+    background: url("../img/newbackground/Arlett barcocktail V5.jpg") no-repeat top center;
     position: relative;
     z-index: 40;
     background-size: cover;
@@ -456,6 +424,7 @@ body {
     left: -7px;
     color: var(--v3);
   }
+
   .slick-initialized .slick-slide {
     display: block;
     padding: 0 20px;
@@ -476,6 +445,7 @@ body {
 #flag-lang {
   display: none
 }
+
 #flag-lang-mobile {
   text-align: center;
   max-width: 100px
@@ -488,6 +458,7 @@ body {
 #ageGateFoot {
   padding: 20px;
 }
+
 #ageGateMsg {
   font-size: 34px;
 }
@@ -495,6 +466,7 @@ body {
 .btn {
   opacity: 1;
   transition: 0.5s ease !important;
+
   &:hover {
     opacity: 0.8 !important;
     color: white
@@ -505,10 +477,12 @@ body {
   path {
     transition: 0.5s ease
   }
+
   &:hover path {
     fill: var(--customColor1);
   }
 }
+
 @media screen and (max-width: 768px) {
   .theta-carousel {
     pointer-events: none;
@@ -520,6 +494,7 @@ body {
     transform-origin: left;
   }
 }
+
 @media screen and (min-width: 1024px) {
   #flag-lang {
     display: block;

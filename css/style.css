@@ -100,61 +100,20 @@ body {
   }
 }
 @media screen and (min-width: 1024px) {
-  .decor__header__mizu__background {
-    background: url("../img/panorama/pano mizu.jpg") no-repeat center top;
+  .décor__header__bg__prod {
+    background: url("../img/newbackground/Arlett image generique ss plaque ni ressort.jpg") no-repeat center top;
     position: relative;
     z-index: 30;
-    background-size: contain;
-  }
-}
-@media screen and (min-width: 1024px) and (min-width: 1400px) {
-  .decor__header__mizu__background {
-    height: 2300px !important;
     background-size: cover;
   }
 }
-@media screen and (min-width: 1024px) {
-  .decor__header__original__background {
-    background: url("../img/panorama/pano original.jpg") no-repeat center top;
-    position: relative;
-    z-index: 30;
-    background-size: contain;
-  }
+.décor__header__bg__prod__mobile {
+  background: url("../img/newbackground/Arlett image generique ss plaque ni ressort.jpg") no-repeat center top;
+  position: relative;
+  z-index: 30;
+  background-size: cover;
 }
-@media screen and (min-width: 1024px) and (min-width: 2500px) {
-  .decor__header__original__background {
-    height: 2300px !important;
-    background-size: cover;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .decor__header__tourbe__background {
-    background: url("../img/panorama/pano tourbé.jpg") no-repeat center top;
-    position: relative;
-    z-index: 30;
-    background-size: contain;
-  }
-}
-@media screen and (min-width: 1024px) and (min-width: 2500px) {
-  .decor__header__tourbe__background {
-    height: 2300px !important;
-    background-size: cover;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .decor__header__barbade__background {
-    background: url("../img/panorama/pano barbade.jpg") no-repeat center top;
-    position: relative;
-    z-index: 30;
-    background-size: contain;
-  }
-}
-@media screen and (min-width: 1024px) and (min-width: 2500px) {
-  .decor__header__barbade__background {
-    height: 2300px !important;
-    background-size: cover;
-  }
-}
+
 @media screen and (min-width: 1200px) {
   .decor__header__cocktail {
     background: url("../img/background/HEAD GAUCHE 1 MAJ 1 (1).svg") no-repeat top left, url("../img/background/HEAD DROITE 2 MAJ 1 (1).svg") no-repeat top right;
@@ -171,7 +130,7 @@ body {
   }
 
   .decor__header__bg {
-    background: url("../img/background/KEY VISUAL - ARLETT BLENDED (1).jpg") no-repeat top center;
+    background: url("../img/newbackground/Arlett barcocktail V5.jpg") no-repeat top center;
     position: relative;
     z-index: 40;
     background-size: cover;
@@ -462,7 +421,62 @@ body {
   text-align: center;
 }
 
+#flag-lang {
+  display: none;
+}
+
+#flag-lang-mobile {
+  text-align: center;
+  max-width: 100px;
+}
+
+#cmplz-document h2 {
+  margin-bottom: 25Px;
+}
+
+#ageGateFoot {
+  padding: 20px;
+}
+
+#ageGateMsg {
+  font-size: 34px;
+}
+
+.btn {
+  opacity: 1;
+  transition: 0.5s ease !important;
+}
+.btn:hover {
+  opacity: 0.8 !important;
+  color: white;
+}
+
+#schema-fabrication a path {
+  transition: 0.5s ease;
+}
+#schema-fabrication a:hover path {
+  fill: var(--customColor1);
+}
+
+@media screen and (max-width: 768px) {
+  .theta-carousel {
+    pointer-events: none;
+  }
+
+  .g-recaptcha.cmplz-activated > div {
+    transform: scale(0.7);
+    transform-origin: left;
+  }
+}
 @media screen and (min-width: 1024px) {
+  #flag-lang {
+    display: block;
+    max-width: 60px;
+    right: 22px;
+    position: absolute;
+    top: 97px;
+  }
+
   /* reutilisable */
   .slick-initialized .slick-slide {
     display: block;

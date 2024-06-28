@@ -10,17 +10,22 @@
         <?php include __DIR__ . '/../menu.php'; ?>
 
         <div class="hidden lg:block">
-            <div class="container mx-auto flex flex-col justify-evenly mt-8 lg:mt-32 gap-6">
-                <div class="flex flex-col justify-center gap-4  lg:ml-60">
+            <div class="container mx-auto flex flex-row justify-evenly mt-8 lg:mt-32 gap-6">
+                <div class="flex flex-col justify-center gap-4 basis-1/2 lg:ml-60">
                     <div class="basis-1/2 line uppercase px-8 lg:px-0" data-aos="fade-down">
                         <h1 class="text-6xl font-league ">whisky<br><span class="text-8xl">blended</span></h1>
                     </div>
-                    <div class="basis-1/2 pt-8 lg:pt-16" data-aos="fade-down">
+                    <div class="basis-1/2 pt-16" data-aos="fade-down">
                         <p class="max-w-[340px] text-justify font-avenir text-xl px-8 lg:px-0">Dernier né de la collection Arlett, ce
                             whisky blended est idéal pour la création de vos cocktails ou pour une dégustation sur glace.
                         </p>
                     </div>
                 </div>
+
+                <div class="basis-1/2">
+                    <img class="" src="../img/bottle/ARLETT%20-%20PACKSHOT-BLENDED%20(1).png" alt="">
+                </div>
+
             </div>
         </div>
     </div>
@@ -28,11 +33,11 @@
     <!--    div background -->
 
 </header>
-<main class="lg:mt-16 2xl:mt-40">
+<main class="lg:mt-40">
 
     <div class="block lg:hidden mb-14">
-        <div>
-            <img src="../img/background/FOND4_FINAL-01-min.png" alt="">
+        <div class="décor__header__bg__prod__mobile py-8">
+            <img class="mx-auto " src="../img/bottle/ARLETT%20-%20PACKSHOT-BLENDED%20(1).png" alt="">
         </div>
         <div class="container mx-auto flex flex-col justify-evenly mt-8 lg:mt-32 gap-6">
             <div class="flex flex-col justify-center gap-4  lg:ml-60">
