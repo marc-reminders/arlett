@@ -478,7 +478,8 @@ body {
     transition: 0.5s ease
   }
 
-  &:hover path {
+  &:hover path, &:hover, &:hover text {
+    color: var(--customColor1);
     fill: var(--customColor1);
   }
 }

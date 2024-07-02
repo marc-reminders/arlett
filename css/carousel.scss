@@ -9,12 +9,19 @@
   }
 }
 #bottles .collection {
-  height: 870px;
+  height: 980px;
   display: flex;
   justify-content: center;
   align-items: center;
   background: url(../img/bottle/copper.png) bottom center no-repeat;
 
+  @media (max-width: 768px) {
+    height: 580px;
+
+    img {
+      max-height: 380px !important;
+    }
+  }
   .content {
     overflow: hidden;
 
