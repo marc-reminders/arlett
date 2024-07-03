@@ -17,13 +17,15 @@
   }
 }
 #bottles .collection {
-  height: 820px;
+  height: 920px;
   display: flex;
+  margin-top: -5%;
   justify-content: center;
   align-items: center;
   background: url(../img/bottle/copper.png) bottom center no-repeat;
 
   @media (max-width: 768px) {
+    margin-top: -5%;
     height: 580px;
 
     img {
