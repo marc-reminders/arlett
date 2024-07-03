@@ -8,8 +8,11 @@
     transform: none !important;
   }
 }
+#bottles-collection-category a:hover, #bottles-collection-title a:hover {
+  color: #C06520
+}
 #bottles .collection {
-  height: 980px;
+  height: 820px;
   display: flex;
   justify-content: center;
   align-items: center;
