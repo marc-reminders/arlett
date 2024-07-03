@@ -8,8 +8,13 @@
     transform: none !important;
   }
 }
-#bottles-collection-category:hover, #bottles-collection-title:hover {
-  color: #C06520
+#bottles-collection-category, #bottles-collection-title {
+  transition: 0.5s ease;
+  cursor: pointer;
+  &:hover {
+
+    color: #C06520;
+  }
 }
 #bottles .collection {
   height: 820px;
